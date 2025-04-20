@@ -248,6 +248,54 @@ Core/Src/Hardware/Motor/motor.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Hardware/Motor/motor.c.s
 .PHONY : Core/Src/Hardware/Motor/motor.c.s
 
+Core/Src/Hardware/step_motor/step_Track.obj: Core/Src/Hardware/step_motor/step_Track.c.obj
+.PHONY : Core/Src/Hardware/step_motor/step_Track.obj
+
+# target to build an object file
+Core/Src/Hardware/step_motor/step_Track.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Hardware/step_motor/step_Track.c.obj
+.PHONY : Core/Src/Hardware/step_motor/step_Track.c.obj
+
+Core/Src/Hardware/step_motor/step_Track.i: Core/Src/Hardware/step_motor/step_Track.c.i
+.PHONY : Core/Src/Hardware/step_motor/step_Track.i
+
+# target to preprocess a source file
+Core/Src/Hardware/step_motor/step_Track.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Hardware/step_motor/step_Track.c.i
+.PHONY : Core/Src/Hardware/step_motor/step_Track.c.i
+
+Core/Src/Hardware/step_motor/step_Track.s: Core/Src/Hardware/step_motor/step_Track.c.s
+.PHONY : Core/Src/Hardware/step_motor/step_Track.s
+
+# target to generate assembly for a file
+Core/Src/Hardware/step_motor/step_Track.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Hardware/step_motor/step_Track.c.s
+.PHONY : Core/Src/Hardware/step_motor/step_Track.c.s
+
+Core/Src/Hardware/step_motor/step_motor.obj: Core/Src/Hardware/step_motor/step_motor.c.obj
+.PHONY : Core/Src/Hardware/step_motor/step_motor.obj
+
+# target to build an object file
+Core/Src/Hardware/step_motor/step_motor.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Hardware/step_motor/step_motor.c.obj
+.PHONY : Core/Src/Hardware/step_motor/step_motor.c.obj
+
+Core/Src/Hardware/step_motor/step_motor.i: Core/Src/Hardware/step_motor/step_motor.c.i
+.PHONY : Core/Src/Hardware/step_motor/step_motor.i
+
+# target to preprocess a source file
+Core/Src/Hardware/step_motor/step_motor.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Hardware/step_motor/step_motor.c.i
+.PHONY : Core/Src/Hardware/step_motor/step_motor.c.i
+
+Core/Src/Hardware/step_motor/step_motor.s: Core/Src/Hardware/step_motor/step_motor.c.s
+.PHONY : Core/Src/Hardware/step_motor/step_motor.s
+
+# target to generate assembly for a file
+Core/Src/Hardware/step_motor/step_motor.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Hardware/step_motor/step_motor.c.s
+.PHONY : Core/Src/Hardware/step_motor/step_motor.c.s
+
 Core/Src/gpio.obj: Core/Src/gpio.c.obj
 .PHONY : Core/Src/gpio.obj
 
@@ -904,6 +952,12 @@ help:
 	@echo ... Core/Src/Hardware/Motor/motor.obj
 	@echo ... Core/Src/Hardware/Motor/motor.i
 	@echo ... Core/Src/Hardware/Motor/motor.s
+	@echo ... Core/Src/Hardware/step_motor/step_Track.obj
+	@echo ... Core/Src/Hardware/step_motor/step_Track.i
+	@echo ... Core/Src/Hardware/step_motor/step_Track.s
+	@echo ... Core/Src/Hardware/step_motor/step_motor.obj
+	@echo ... Core/Src/Hardware/step_motor/step_motor.i
+	@echo ... Core/Src/Hardware/step_motor/step_motor.s
 	@echo ... Core/Src/gpio.obj
 	@echo ... Core/Src/gpio.i
 	@echo ... Core/Src/gpio.s

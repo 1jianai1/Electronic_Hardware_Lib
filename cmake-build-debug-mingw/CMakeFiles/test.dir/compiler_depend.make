@@ -266,6 +266,142 @@ CMakeFiles/test.dir/Core/Src/Hardware/Motor/motor.c.obj: G:/Code/Emulate/test/Co
   G:/Code/Emulate/test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   G:/Code/Emulate/test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
+CMakeFiles/test.dir/Core/Src/Hardware/step_motor/step_Track.c.obj: G:/Code/Emulate/test/Core/Src/Hardware/step_motor/step_Track.c \
+  G:/Code/Emulate/test/Core/Src/Hardware/step_motor/step_Track.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/_ansi.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/_newlib_version.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/alloca.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/_default_types.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/_endian.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/_types.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/endian.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/ieeefp.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/stdlib.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/types.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/math.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/newlib.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/stdint.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/stdio.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/stdlib.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_intsup.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_pthreadtypes.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_sigset.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_stdint.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_timespec.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_timeval.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_types.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/cdefs.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/config.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/features.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/lock.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/reent.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/sched.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/select.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/stdio.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/timespec.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/types.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  G:/Code/Emulate/test/Core/Inc/main.h \
+  G:/Code/Emulate/test/Core/Inc/stm32f4xx_hal_conf.h \
+  G:/Code/Emulate/test/Core/Inc/tim.h \
+  G:/Code/Emulate/test/Core/Src/Hardware/step_motor/step_motor.h \
+  G:/Code/Emulate/test/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xc.h \
+  G:/Code/Emulate/test/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
+  G:/Code/Emulate/test/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
+  G:/Code/Emulate/test/Drivers/CMSIS/Include/cmsis_compiler.h \
+  G:/Code/Emulate/test/Drivers/CMSIS/Include/cmsis_gcc.h \
+  G:/Code/Emulate/test/Drivers/CMSIS/Include/cmsis_version.h \
+  G:/Code/Emulate/test/Drivers/CMSIS/Include/core_cm4.h \
+  G:/Code/Emulate/test/Drivers/CMSIS/Include/mpu_armv7.h \
+  G:/Code/Emulate/test/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  G:/Code/Emulate/test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
+  G:/Code/Emulate/test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
+  G:/Code/Emulate/test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
+  G:/Code/Emulate/test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
+  G:/Code/Emulate/test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
+  G:/Code/Emulate/test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
+  G:/Code/Emulate/test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
+  G:/Code/Emulate/test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
+  G:/Code/Emulate/test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
+  G:/Code/Emulate/test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
+  G:/Code/Emulate/test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
+  G:/Code/Emulate/test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
+  G:/Code/Emulate/test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  G:/Code/Emulate/test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
+  G:/Code/Emulate/test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  G:/Code/Emulate/test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  G:/Code/Emulate/test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  G:/Code/Emulate/test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+
+CMakeFiles/test.dir/Core/Src/Hardware/step_motor/step_motor.c.obj: G:/Code/Emulate/test/Core/Src/Hardware/step_motor/step_motor.c \
+  G:/Code/Emulate/test/Core/Src/Hardware/step_motor/step_motor.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/_ansi.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/_newlib_version.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/alloca.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/_default_types.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/_endian.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/_types.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/endian.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/ieeefp.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/stdlib.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/types.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/newlib.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/stdint.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/stdio.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/stdlib.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_intsup.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_pthreadtypes.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_sigset.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_stdint.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_timespec.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_timeval.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_types.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/cdefs.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/config.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/features.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/lock.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/reent.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/sched.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/select.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/stdio.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/timespec.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/types.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  G:/Code/Emulate/test/Core/Inc/main.h \
+  G:/Code/Emulate/test/Core/Inc/stm32f4xx_hal_conf.h \
+  G:/Code/Emulate/test/Core/Inc/tim.h \
+  G:/Code/Emulate/test/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xc.h \
+  G:/Code/Emulate/test/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
+  G:/Code/Emulate/test/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
+  G:/Code/Emulate/test/Drivers/CMSIS/Include/cmsis_compiler.h \
+  G:/Code/Emulate/test/Drivers/CMSIS/Include/cmsis_gcc.h \
+  G:/Code/Emulate/test/Drivers/CMSIS/Include/cmsis_version.h \
+  G:/Code/Emulate/test/Drivers/CMSIS/Include/core_cm4.h \
+  G:/Code/Emulate/test/Drivers/CMSIS/Include/mpu_armv7.h \
+  G:/Code/Emulate/test/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  G:/Code/Emulate/test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
+  G:/Code/Emulate/test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
+  G:/Code/Emulate/test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
+  G:/Code/Emulate/test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
+  G:/Code/Emulate/test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
+  G:/Code/Emulate/test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
+  G:/Code/Emulate/test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
+  G:/Code/Emulate/test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
+  G:/Code/Emulate/test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
+  G:/Code/Emulate/test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
+  G:/Code/Emulate/test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
+  G:/Code/Emulate/test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
+  G:/Code/Emulate/test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  G:/Code/Emulate/test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
+  G:/Code/Emulate/test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  G:/Code/Emulate/test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  G:/Code/Emulate/test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  G:/Code/Emulate/test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+
 CMakeFiles/test.dir/Core/Src/gpio.c.obj: G:/Code/Emulate/test/Core/Src/gpio.c \
   D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/_newlib_version.h \
   D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/_default_types.h \
@@ -311,6 +447,7 @@ CMakeFiles/test.dir/Core/Src/main.c.obj: G:/Code/Emulate/test/Core/Src/main.c \
   G:/Code/Emulate/test/Core/Src/Hardware/IMU/MPU9250/mpu9250.h \
   G:/Code/Emulate/test/Core/Src/Hardware/Motor/control.h \
   G:/Code/Emulate/test/Core/Src/Hardware/Motor/motor.h \
+  G:/Code/Emulate/test/Core/Src/Hardware/step_motor/step_Track.h \
   G:/Code/Emulate/test/Core/Src/sys/delay/delay.h \
   D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/_ansi.h \
   D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/_newlib_version.h \
@@ -358,6 +495,7 @@ CMakeFiles/test.dir/Core/Src/main.c.obj: G:/Code/Emulate/test/Core/Src/main.c \
   G:/Code/Emulate/test/Core/Inc/stm32f4xx_hal_conf.h \
   G:/Code/Emulate/test/Core/Inc/tim.h \
   G:/Code/Emulate/test/Core/Inc/usart.h \
+  G:/Code/Emulate/test/Core/Src/Hardware/step_motor/step_motor.h \
   G:/Code/Emulate/test/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xc.h \
   G:/Code/Emulate/test/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
   G:/Code/Emulate/test/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
@@ -1459,6 +1597,24 @@ G:/Code/Emulate/test/Core/Src/Hardware/Motor/motor.c:
 
 G:/Code/Emulate/test/Core/Inc/gpio.h:
 
+G:/Code/Emulate/test/Core/Src/Hardware/step_motor/step_Track.c:
+
+G:/Code/Emulate/test/Core/Src/Hardware/step_motor/step_Track.h:
+
+D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/alloca.h:
+
+D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/stdlib.h:
+
+G:/Code/Emulate/test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c:
+
+D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/stat.h:
+
+D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/stdlib.h:
+
+G:/Code/Emulate/test/Core/Src/Hardware/step_motor/step_motor.h:
+
+G:/Code/Emulate/test/Core/Src/Hardware/step_motor/step_motor.c:
+
 G:/Code/Emulate/test/Core/Src/gpio.c:
 
 G:/Code/Emulate/test/Core/Src/main.c:
@@ -1489,23 +1645,13 @@ G:/Code/Emulate/test/Core/Inc/stm32f4xx_it.h:
 
 G:/Code/Emulate/test/Core/Src/syscalls.c:
 
-D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/alloca.h:
-
 D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/errno.h:
 
 D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/_time.h:
 
-D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/stdlib.h:
-
 D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/time.h:
 
 D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/signal.h:
-
-G:/Code/Emulate/test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c:
-
-D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/stat.h:
-
-D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/stdlib.h:
 
 D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/errno.h:
 

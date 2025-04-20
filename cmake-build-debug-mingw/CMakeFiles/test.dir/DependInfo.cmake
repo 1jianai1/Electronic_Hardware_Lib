@@ -36,6 +36,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "G:/Code/Emulate/test/Core/Src/Hardware/Motor/control.c" "CMakeFiles/test.dir/Core/Src/Hardware/Motor/control.c.obj" "gcc" "CMakeFiles/test.dir/Core/Src/Hardware/Motor/control.c.obj.d"
   "G:/Code/Emulate/test/Core/Src/Hardware/Motor/filter.c" "CMakeFiles/test.dir/Core/Src/Hardware/Motor/filter.c.obj" "gcc" "CMakeFiles/test.dir/Core/Src/Hardware/Motor/filter.c.obj.d"
   "G:/Code/Emulate/test/Core/Src/Hardware/Motor/motor.c" "CMakeFiles/test.dir/Core/Src/Hardware/Motor/motor.c.obj" "gcc" "CMakeFiles/test.dir/Core/Src/Hardware/Motor/motor.c.obj.d"
+  "G:/Code/Emulate/test/Core/Src/Hardware/step_motor/step_Track.c" "CMakeFiles/test.dir/Core/Src/Hardware/step_motor/step_Track.c.obj" "gcc" "CMakeFiles/test.dir/Core/Src/Hardware/step_motor/step_Track.c.obj.d"
+  "G:/Code/Emulate/test/Core/Src/Hardware/step_motor/step_motor.c" "CMakeFiles/test.dir/Core/Src/Hardware/step_motor/step_motor.c.obj" "gcc" "CMakeFiles/test.dir/Core/Src/Hardware/step_motor/step_motor.c.obj.d"
   "G:/Code/Emulate/test/Core/Src/gpio.c" "CMakeFiles/test.dir/Core/Src/gpio.c.obj" "gcc" "CMakeFiles/test.dir/Core/Src/gpio.c.obj.d"
   "G:/Code/Emulate/test/Core/Src/main.c" "CMakeFiles/test.dir/Core/Src/main.c.obj" "gcc" "CMakeFiles/test.dir/Core/Src/main.c.obj.d"
   "G:/Code/Emulate/test/Core/Src/stm32f4xx_hal_msp.c" "CMakeFiles/test.dir/Core/Src/stm32f4xx_hal_msp.c.obj" "gcc" "CMakeFiles/test.dir/Core/Src/stm32f4xx_hal_msp.c.obj.d"

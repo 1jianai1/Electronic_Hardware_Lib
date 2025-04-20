@@ -26,6 +26,11 @@ typedef void (*VOID)(void);
 typedef void (*MOTOR_INTERFACE)(MotorID);
 typedef void (*MOTOR_SPEED_INTERFACE)(MotorID, int16_t);
 
+
+
+
+
+
 // 可以采用数组索引的方式进行封装
 //电机类的属性
 typedef struct {

@@ -89,7 +89,7 @@ void IIC_Init(void)
   HAL_GPIO_Init(IIC_SCL_PORT, &GPIO_InitStructure);
 	
   GPIO_InitStructure.Pin = IIC_SDA;
-    HAL_GPIO_Init(IIC_SDA_PORT, &GPIO_InitStructure);
+  HAL_GPIO_Init(IIC_SDA_PORT, &GPIO_InitStructure);
 	
 	IIC_SCL_H;
 	IIC_SDA_H;
@@ -103,12 +103,12 @@ void IIC_Init(void)
 *******************************************************************************/	
 void IIC_Start(void)
 {
-	SDA_OUT(); //sda线输出 
+	// SDA_OUT(); //sda线输出
 	IIC_SDA_H;	
 	IIC_SCL_H;
-    IIC_Delay();
+    //IIC_Delay();
  	IIC_SDA_L; //START:when CLK is high,DATA change form high to low 
-    IIC_Delay();
+    //IIC_Delay();
 	IIC_SCL_L; //钳住I2C总线，准备发送或接收数据 
 }
 
@@ -121,13 +121,13 @@ void IIC_Start(void)
 *******************************************************************************/	  
 void IIC_Stop(void)
 {
-	SDA_OUT(); //sda线输出
+	//SDA_OUT(); //sda线输出
 	IIC_SCL_L;
 	IIC_SDA_L; //STOP:when CLK is high DATA change form low to high
-    IIC_Delay();
+    //IIC_Delay();
 	IIC_SCL_H; 
 	IIC_SDA_H; //发送I2C总线结束信号
-    IIC_Delay();
+    //IIC_Delay();
 }
 
 /******************************************************************************
@@ -143,8 +143,8 @@ uint8_t IIC_WaitAck(void)
 {
 	uint8_t ucErrTime=0;
 	SDA_IN(); //SDA设置为输入  （从机给一个低电平做为应答） 
-	IIC_SDA_H;delay_us(1);	   
-	IIC_SCL_H;delay_us(1);	 
+	IIC_SDA_H;//delay_us(1);
+	IIC_SCL_H;//delay_us(1);
 	while(READ_SDA)
 	{
 		ucErrTime++;
@@ -170,11 +170,11 @@ uint8_t IIC_WaitAck(void)
 void IIC_Ack(void)
 {
 	IIC_SCL_L;
-	SDA_OUT();
+	//SDA_OUT();
 	IIC_SDA_L;
-	delay_us(1);
+	//delay_us(1);
 	IIC_SCL_H;
-	delay_us(2);
+	//delay_us(2);
 	IIC_SCL_L;
 }
 
@@ -189,11 +189,11 @@ void IIC_Ack(void)
 void IIC_NAck(void)
 {
 	IIC_SCL_L;
-	SDA_OUT();
+	//SDA_OUT();
 	IIC_SDA_H;
-	delay_us(1);
+	//delay_us(1);
 	IIC_SCL_H;
-	delay_us(1);
+	//delay_us(1);
 	IIC_SCL_L;
 }					 				     
 
@@ -207,20 +207,20 @@ void IIC_NAck(void)
 void IIC_SendByte(uint8_t data)
 {                        
     uint8_t t;   
-    SDA_OUT();
+    //SDA_OUT();
     IIC_SCL_L; //拉低时钟开始数据传输
     for(t=0;t<8;t++)
     {              
       if((data&0x80)>>7)
-				IIC_SDA_H;
-			else
-				IIC_SDA_L;
+          IIC_SDA_H;
+      else
+          IIC_SDA_L;
       data<<=1;
-			delay_us(1);			
+			//delay_us(1);
 		  IIC_SCL_H;
-		  delay_us(1);
-			IIC_SCL_L;	
-		  delay_us(1);
+		  //delay_us(1);
+          IIC_SCL_L;
+		  //delay_us(1);
     }	 
 } 	 
    
@@ -234,16 +234,17 @@ void IIC_SendByte(uint8_t data)
 uint8_t IIC_ReadByte(uint8_t ack)
 {
 	uint8_t i,receive=0;
-	SDA_IN(); //SDA设置为输入模式 等待接收从机返回数据
+	//SDA_IN(); //SDA设置为输入模式 等待接收从机返回数据
+
   for(i=0;i<8;i++ )
-	{
+  {
      IIC_SCL_L; 
-     delay_us(1);
-		 IIC_SCL_H;
+     //delay_us(1);
+     IIC_SCL_H;
      receive<<=1;
      if(READ_SDA)receive++; //从机发送的电平
-	   delay_us(1); 
-   }					 
+	   //delay_us(1);
+  }
     if(ack)
         IIC_Ack(); //发送ACK 
     else
@@ -276,7 +277,7 @@ uint8_t IIC_ReadByteFromSlave(uint8_t I2C_Addr,uint8_t reg,uint8_t *buf)
 	IIC_SendByte(I2C_Addr<<1|1); //进入接收模式			   
 	IIC_WaitAck();
 	*buf=IIC_ReadByte(0);	   
-  IIC_Stop(); //产生一个停止条件
+    IIC_Stop(); //产生一个停止条件
 	return 0;
 }
 
