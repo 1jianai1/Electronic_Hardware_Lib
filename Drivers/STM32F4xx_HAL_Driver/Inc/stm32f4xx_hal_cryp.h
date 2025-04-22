@@ -65,7 +65,7 @@ typedef struct
   uint32_t *B0;                       /*!< B0 is first authentication block used only  in AES CCM mode */
   uint32_t DataWidthUnit;              /*!< Data With Unit, this parameter can be value of @ref CRYP_Data_Width_Unit*/
   uint32_t HeaderWidthUnit;            /*!< Header Width Unit, this parameter can be value of @ref CRYP_Header_Width_Unit*/
-  uint32_t KeyIVConfigSkip;            /*!< CRYP peripheral Key and IV configuration skip, to config Key and Initialization
+  uint32_t KeyIVConfigSkip;            /*!< CRYP peripheral Key and IV configuration skip, to Config Key and Initialization
                                            Vector only once and to skip configuration for consecutive processings.
                                            This parameter can be a value of @ref CRYP_Configuration_Skip */
 

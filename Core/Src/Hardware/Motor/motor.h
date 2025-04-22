@@ -8,6 +8,9 @@
 #include "main.h"
 #include "tim.h"
 
+#define MOTOR_PRESCAL     0
+#define MOTOR_Hclk       84000000/(MOTOR_PRESCAL + 1)  //时间总频
+
 //todo 你用的是什么芯片
 /*
  * TB6612/L298N: IN1 和 IN2 的高低电平驱动 IN1 高 IN2 低 为一个方向，IN1 低 IN2 高 为另一个方向
@@ -25,11 +28,7 @@ typedef enum{
 typedef void (*VOID)(void);
 typedef void (*MOTOR_INTERFACE)(MotorID);
 typedef void (*MOTOR_SPEED_INTERFACE)(MotorID, int16_t);
-
-
-
-
-
+typedef void (*MOTOR_SET_VALUE_INTERFACE)(MotorID, uint32_t);
 
 // 可以采用数组索引的方式进行封装
 //电机类的属性
@@ -40,12 +39,31 @@ typedef struct {
     GPIO_TypeDef* GPIOx_2;
     uint16_t M_IN1;
     uint16_t M_IN2;
+
+    TIM_HandleTypeDef* htim;  //定时器句柄
+    uint32_t Channel;    //CH通道
+    TIM_HandleTypeDef* entim;
+
     //定时器接口
     uint16_t arr;
     uint16_t psc;
-    TIM_HandleTypeDef htim;  //定时器句柄
-    uint32_t tim_channel;    //CH通道
-    TIM_HandleTypeDef entim;
+    uint32_t freq;  // 电机频率
+    uint32_t compare;   // 比较值
+
+    // todo 硬件函数接口
+    MOTOR_INTERFACE pin1Set;
+    MOTOR_INTERFACE pin1Reset;
+    MOTOR_INTERFACE pin2Set;
+    MOTOR_INTERFACE pin2Reset;
+    MOTOR_SET_VALUE_INTERFACE setFreq;
+    MOTOR_SET_VALUE_INTERFACE setPwm;
+    MOTOR_INTERFACE pwmStart;
+    MOTOR_INTERFACE pwmStop;
+    MOTOR_INTERFACE enStart;
+    MOTOR_INTERFACE enStop;
+    MOTOR_INTERFACE enReset;
+    MOTOR_INTERFACE enGet;
+
 }MOTOR_HARDWARE;
 
 // 对外接口 - 硬件层用hw访问
@@ -81,9 +99,9 @@ extern MOTOR motor[M_SUM];
 //电机初始化
 void motor_attach(
         MotorID id,
-        TIM_HandleTypeDef htim,  //定时器句柄
+        TIM_HandleTypeDef* htim,  //定时器句柄
         uint32_t tim_channel,    //CH通道
-        TIM_HandleTypeDef entim,
+        TIM_HandleTypeDef* entim,
         GPIO_TypeDef* GPIOx_1,
         uint16_t M_IN1,
         GPIO_TypeDef* GPIOx_2,

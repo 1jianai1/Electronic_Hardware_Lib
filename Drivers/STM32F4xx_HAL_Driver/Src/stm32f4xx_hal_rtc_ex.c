@@ -1588,7 +1588,7 @@ HAL_StatusTypeDef HAL_RTCEx_SetCalibrationOutPut(RTC_HandleTypeDef *hrtc, uint32
   /* Disable the write protection for RTC registers */
   __HAL_RTC_WRITEPROTECTION_DISABLE(hrtc);
 
-  /* Clear flags before config */
+  /* Clear flags before Config */
   hrtc->Instance->CR &= (uint32_t)~RTC_CR_COSEL;
 
   /* Configure the RTC_CR register */

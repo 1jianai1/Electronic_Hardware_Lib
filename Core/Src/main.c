@@ -30,6 +30,8 @@
 #include "Hardware/Motor/control.h"
 #include "Hardware/IMU/MPU9250/mpu9250.h"
 #include "Hardware/step_motor/step_Track.h"
+#include "sys/Config/config.h"
+#include "Conmunication/serial.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -99,62 +101,65 @@ int main(void)
   MX_TIM10_Init();
   MX_TIM5_Init();
   /* USER CODE BEGIN 2 */
+  config_init();
   // 娣诲姞纭欢鎺ュ彛
-//    motor_attach(
-//            M1,
-//            htim3,
-//            TIM_CHANNEL_1,
-//            htim4,
-//            GPIOB,
-//            GPIO_PIN_4,
-//            GPIOB,
-//            GPIO_PIN_5
-//            );
-//    motor_init();
-//    Motor_PID_init();
+    motor_attach(
+            M1,
+            &htim3,
+            TIM_CHANNEL_1,
+            &htim4,
+            GPIOB,
+            GPIO_PIN_4,
+            GPIOB,
+            GPIO_PIN_5
+            );
+    motor_init();
+    Motor_PID_init();
+    motor[M1].setTarSpeed(M1, 25);
 //
 //    IIC_Init();
 //    MPU9250_Init();
-//    int x = 0;
-//    int flag = 100;
-//    motor[M1].setTarSpeed(M1, 25);
+
+
 //    int16_t GYRO[3],ACC[3];
 //    float Temperature;
 
-    stepmotor_attach(
-            SM1,
-            &htim5,
-            TIM_CHANNEL_3,
-            GPIOB,
-            GPIO_PIN_1,
-            GPIOA,
-            GPIO_PIN_5
-            );
-    stepmotor_init();
-    stepm[SM1].stepMove(SM1, -1000, 1000);
-    HAL_Delay(500);
-    stepm[SM1].stop(SM1);
-    HAL_Delay(1000);
-    stepm[SM1].stepMove(SM1, 1000, 1000);
-
+//    stepmotor_attach(
+//            SM1,
+//            &htim5,
+//            TIM_CHANNEL_3,
+//            GPIOB,
+//            GPIO_PIN_1,
+//            GPIOA,
+//            GPIO_PIN_5
+//            );
+//    stepmotor_init();
+//    stepm[SM1].stepMove(SM1, -1000, 1000);
+//    HAL_Delay(500);
+//    stepm[SM1].stop(SM1);
+//    HAL_Delay(1000);
+//    stepm[SM1].stepMove(SM1, 1000, 1000);
     HAL_TIM_Base_Start_IT(&htim10);
+    HAL_UART_Receive_IT(&huart1, config.rx1_buff, 1);
     printf("Hello\r\n");
+    uint16_t time = 0, idx = 0;
+    int16_t speed_arr[10] = {-1, 5 ,-10, 15, -20, 15, -10, 5, 0, -10};
+    motor[M1].setTarSpeed(M1, speed_arr[0]);
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-      //stepmotors[SM1].stepMove(SM1, 1, 1000);
-//      x += flag;
-//      if(x > 3600 || x < -3600)
-//          flag = -flag;
-//      MPU9250_GyroRead(GYRO);
-//      MPU9250_AccRead(ACC);
-//      MPU9250_TempRead(&Temperature);
-//      printf("GYRO_X:%d  GYRO_Y:%d  GYRO_Z:%d\r\n",GYRO[0],GYRO[1],GYRO[2]);
-//      printf(" ACC_X:%d   ACC_Y:%d   ACC_Z:%d\r\n",ACC[0],ACC[1],ACC[2]);
-//      printf("Temperature:%0.2f\r\n\r\n",Temperature);
+      if(time > 150){
+          time = 0;
+          idx++;
+          if(idx > 9)idx = 0;
+          motor[M1].setTarSpeed(M1, speed_arr[idx]);
+      }
+      time++;
+      printf("speed: %d, %d\r\n", motor[M1].en_actual, motor[M1].tar_speed);
+
       HAL_Delay(10);
     /* USER CODE END WHILE */
 
@@ -214,15 +219,23 @@ void SystemClock_Config(void)
 //中断回调函数
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef* htim){
     if(htim->Instance==TIM10){                      //定时中断
-//        static uint8_t servo_t = 0;
-//
-//        if(servo_t%10 == 0){
-//            servo_t = 0;
-//            motor[M1].getSpeed(M1);
-//            motor[M1].pidSpeedloop(M1);
-//        }
-//        servo_t++;
+        static uint8_t servo_t = 0;
+
+        if(servo_t%10 == 0){
+            servo_t = 0;
+            motor[M1].getSpeed(M1);
+            motor[M1].pidSpeedloop(M1);
+        }
+        servo_t++;
     }
+}
+
+// 串口接收中断回调函数
+void HAL_UART_RxCpltCallback(UART_HandleTypeDef*huart){
+    if(huart->Instance==USART1){
+        debug_serial(config.rx1_buff);
+    }
+
 }
 
 int __io_putchar(int ch)

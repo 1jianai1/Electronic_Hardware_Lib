@@ -138,7 +138,7 @@
 
 #define USE_INTRINSIC
 
-//#define ARM_NN_TRUNCATE /* This config the rounding model to floor or round to the nearest int */
+//#define ARM_NN_TRUNCATE /* This Config the rounding model to floor or round to the nearest int */
 
 #ifdef __cplusplus
 extern "C" {

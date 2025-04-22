@@ -37,4 +37,5 @@ CMakeFiles/test.dir/Core/Src/stm32f4xx_it.c.obj: \
  g:\code\emulate\test\drivers\stm32f4xx_hal_driver\inc\stm32f4xx_hal_tim.h \
  g:\code\emulate\test\drivers\stm32f4xx_hal_driver\inc\stm32f4xx_hal_tim_ex.h \
  g:\code\emulate\test\drivers\stm32f4xx_hal_driver\inc\stm32f4xx_hal_uart.h \
- g:\code\emulate\test\core\inc\stm32f4xx_it.h
+ g:\code\emulate\test\core\inc\stm32f4xx_it.h \
+ G:\Code\Emulate\test\Core\Src\sys/Config/config.h

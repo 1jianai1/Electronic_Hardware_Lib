@@ -49,6 +49,18 @@
 },
 {
   "directory": "G:/Code/Emulate/test/cmake-build-debug-mingw",
+  "command": "D:\\Clion\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe -DDEBUG -DSTM32F401xC -DUSE_HAL_DRIVER -IG:\\Code\\Emulate\\test\\cmake\\stm32cubemx\\..\\..\\Core\\Inc -IG:\\Code\\Emulate\\test\\cmake\\stm32cubemx\\..\\..\\Drivers\\STM32F4xx_HAL_Driver\\Inc -IG:\\Code\\Emulate\\test\\cmake\\stm32cubemx\\..\\..\\Drivers\\STM32F4xx_HAL_Driver\\Inc\\Legacy -IG:\\Code\\Emulate\\test\\cmake\\stm32cubemx\\..\\..\\Drivers\\CMSIS\\Device\\ST\\STM32F4xx\\Include -IG:\\Code\\Emulate\\test\\cmake\\stm32cubemx\\..\\..\\Drivers\\CMSIS\\Include -IG:\\Code\\Emulate\\test\\cmake\\stm32cubemx\\..\\..\\Middlewares\\ST\\ARM\\DSP\\Inc  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -o CMakeFiles\\test.dir\\Core\\Src\\sys\\Config\\config.c.obj -c G:\\Code\\Emulate\\test\\Core\\Src\\sys\\Config\\config.c",
+  "file": "G:/Code/Emulate/test/Core/Src/sys/Config/config.c",
+  "output": "CMakeFiles/test.dir/Core/Src/sys/Config/config.c.obj"
+},
+{
+  "directory": "G:/Code/Emulate/test/cmake-build-debug-mingw",
+  "command": "D:\\Clion\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe -DDEBUG -DSTM32F401xC -DUSE_HAL_DRIVER -IG:\\Code\\Emulate\\test\\cmake\\stm32cubemx\\..\\..\\Core\\Inc -IG:\\Code\\Emulate\\test\\cmake\\stm32cubemx\\..\\..\\Drivers\\STM32F4xx_HAL_Driver\\Inc -IG:\\Code\\Emulate\\test\\cmake\\stm32cubemx\\..\\..\\Drivers\\STM32F4xx_HAL_Driver\\Inc\\Legacy -IG:\\Code\\Emulate\\test\\cmake\\stm32cubemx\\..\\..\\Drivers\\CMSIS\\Device\\ST\\STM32F4xx\\Include -IG:\\Code\\Emulate\\test\\cmake\\stm32cubemx\\..\\..\\Drivers\\CMSIS\\Include -IG:\\Code\\Emulate\\test\\cmake\\stm32cubemx\\..\\..\\Middlewares\\ST\\ARM\\DSP\\Inc  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -o CMakeFiles\\test.dir\\Core\\Src\\Conmunication\\serial.c.obj -c G:\\Code\\Emulate\\test\\Core\\Src\\Conmunication\\serial.c",
+  "file": "G:/Code/Emulate/test/Core/Src/Conmunication/serial.c",
+  "output": "CMakeFiles/test.dir/Core/Src/Conmunication/serial.c.obj"
+},
+{
+  "directory": "G:/Code/Emulate/test/cmake-build-debug-mingw",
   "command": "D:\\Clion\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe -DDEBUG -DSTM32F401xC -DUSE_HAL_DRIVER -IG:\\Code\\Emulate\\test\\cmake\\stm32cubemx\\..\\..\\Core\\Inc -IG:\\Code\\Emulate\\test\\cmake\\stm32cubemx\\..\\..\\Drivers\\STM32F4xx_HAL_Driver\\Inc -IG:\\Code\\Emulate\\test\\cmake\\stm32cubemx\\..\\..\\Drivers\\STM32F4xx_HAL_Driver\\Inc\\Legacy -IG:\\Code\\Emulate\\test\\cmake\\stm32cubemx\\..\\..\\Drivers\\CMSIS\\Device\\ST\\STM32F4xx\\Include -IG:\\Code\\Emulate\\test\\cmake\\stm32cubemx\\..\\..\\Drivers\\CMSIS\\Include -IG:\\Code\\Emulate\\test\\cmake\\stm32cubemx\\..\\..\\Middlewares\\ST\\ARM\\DSP\\Inc  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -o CMakeFiles\\test.dir\\Core\\Src\\main.c.obj -c G:\\Code\\Emulate\\test\\Core\\Src\\main.c",
   "file": "G:/Code/Emulate/test/Core/Src/main.c",
   "output": "CMakeFiles/test.dir/Core/Src/main.c.obj"

@@ -6,7 +6,9 @@
 
 #include "main.h"
 #include "tim.h"
-#define   Hclk       1000000  //时间总频
+
+#define STEP_PRESCAL     83
+#define STEP_Hclk       84000000/(STEP_PRESCAL + 1)  //时间总频
 
 //todo 你用的是什么芯片
 /*

@@ -121,7 +121,7 @@ typedef struct
   uint16_t SectorsBank2;   /*!< Specifies the sector(s) set for PCROP for Bank2.
                                 This parameter can be a value of @ref FLASHEx_Option_Bytes_PC_ReadWrite_Protection */
 
-  uint8_t BootConfig;      /*!< Specifies Option bytes for boot config.
+  uint8_t BootConfig;      /*!< Specifies Option bytes for boot Config.
                                 This parameter can be a value of @ref FLASHEx_Dual_Boot */
 
 #endif /*STM32F427xx || STM32F437xx || STM32F429xx || STM32F439xx || STM32F469xx || STM32F479xx */

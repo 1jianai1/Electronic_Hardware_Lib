@@ -52,7 +52,11 @@ add_executable(${CMAKE_PROJECT_NAME}
         Core/Src/Hardware/step_motor/step_motor.c
         Core/Src/Hardware/step_motor/step_motor.h
         Core/Src/Hardware/step_motor/step_Track.c
-        Core/Src/Hardware/step_motor/step_Track.h)
+        Core/Src/Hardware/step_motor/step_Track.h
+        Core/Src/sys/Config/config.c
+        Core/Src/sys/Config/config.h
+        Core/Src/Conmunication/serial.c
+        Core/Src/Conmunication/serial.h)
 
 # Add STM32CubeMX generated sources
 add_subdirectory(cmake/stm32cubemx)

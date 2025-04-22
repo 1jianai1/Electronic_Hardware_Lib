@@ -78,7 +78,7 @@ static void pwm_setcompare(STEPID id, int32_t freq){// todo 设置50%的占空�
     // todo 重新设置占空比(占空比永远为比较值的一半, 即50%占空比)
     STEPMOTOR_HARDWARE* hw = &stepmotorhws[id];
     if(freq > 0){
-        hw->htim->Instance->ARR = Hclk/freq - 1;
+        hw->htim->Instance->ARR = STEP_Hclk/freq - 1;
         __HAL_TIM_SET_COMPARE(hw->htim, hw->Channel, hw->htim->Instance->ARR/2); // 占空比无所谓 一半即可
     }
 }

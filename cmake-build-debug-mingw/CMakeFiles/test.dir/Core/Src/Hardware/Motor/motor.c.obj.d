@@ -39,7 +39,6 @@ CMakeFiles/test.dir/Core/Src/Hardware/Motor/motor.c.obj: \
  g:\code\emulate\test\drivers\stm32f4xx_hal_driver\inc\stm32f4xx_hal_tim_ex.h \
  g:\code\emulate\test\drivers\stm32f4xx_hal_driver\inc\stm32f4xx_hal_uart.h \
  g:\code\emulate\test\core\inc\tim.h g:\code\emulate\test\core\inc\main.h \
- g:\code\emulate\test\core\inc\gpio.h \
  d:\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\stdio.h \
  d:\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\_ansi.h \
  d:\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\newlib.h \

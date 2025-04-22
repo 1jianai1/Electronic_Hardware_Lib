@@ -31,7 +31,7 @@
 #include "arm_const_structs.h"
 
 /*
-ALLOW TABLE is true when config table is enabled and the Tramsform folder is included 
+ALLOW TABLE is true when Config table is enabled and the Tramsform folder is included
 for compilation.
 */
 #if !defined(ARM_DSP_CONFIG_TABLES) || defined(ARM_FFT_ALLOW_TABLES)

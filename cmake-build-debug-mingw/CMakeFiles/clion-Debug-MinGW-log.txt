@@ -1,5 +1,5 @@
 "D:\CLion_24\CLion 2024_1\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe -DCMAKE_CXX_COMPILER=D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++.exe -G "MinGW Makefiles" -S G:\Code\Emulate\test -B G:\Code\Emulate\test\cmake-build-debug-mingw
 Build type: Debug
--- Configuring done (0.9s)
--- Generating done (0.1s)
+-- Configuring done (1.0s)
+-- Generating done (0.2s)
 -- Build files have been written to: G:/Code/Emulate/test/cmake-build-debug-mingw

@@ -5,7 +5,7 @@
   * @brief   CRYP HAL module driver.
   *          This file provides firmware functions to manage the following
   *          functionalities of the Cryptography (CRYP) peripheral:
-  *           + Initialization, de-initialization, set config and get config  functions
+  *           + Initialization, de-initialization, set Config and get Config  functions
   *           + DES/TDES, AES processing functions
   *           + DMA callback functions
   *           + CRYP IRQ handler management

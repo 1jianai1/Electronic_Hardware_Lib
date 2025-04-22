@@ -281,7 +281,7 @@ void HAL_PWR_ConfigPVD(PWR_PVDTypeDef *sConfigPVD)
   /* Set PLS[7:5] bits according to PVDLevel value */
   MODIFY_REG(PWR->CR, PWR_CR_PLS, sConfigPVD->PVDLevel);
   
-  /* Clear any previous config. Keep it clear if no event or IT mode is selected */
+  /* Clear any previous Config. Keep it clear if no event or IT mode is selected */
   __HAL_PWR_PVD_EXTI_DISABLE_EVENT();
   __HAL_PWR_PVD_EXTI_DISABLE_IT();
   __HAL_PWR_PVD_EXTI_DISABLE_RISING_EDGE();

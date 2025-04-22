@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/test.dir/Core/Src/Conmunication/serial.c.obj"
+  "CMakeFiles/test.dir/Core/Src/Conmunication/serial.c.obj.d"
   "CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU9250/iic_moni.c.obj"
   "CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU9250/iic_moni.c.obj.d"
   "CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU9250/mpu9250.c.obj"
@@ -21,6 +23,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/test.dir/Core/Src/stm32f4xx_hal_msp.c.obj.d"
   "CMakeFiles/test.dir/Core/Src/stm32f4xx_it.c.obj"
   "CMakeFiles/test.dir/Core/Src/stm32f4xx_it.c.obj.d"
+  "CMakeFiles/test.dir/Core/Src/sys/Config/config.c.obj"
+  "CMakeFiles/test.dir/Core/Src/sys/Config/config.c.obj.d"
   "CMakeFiles/test.dir/Core/Src/sys/delay/delay.c.obj"
   "CMakeFiles/test.dir/Core/Src/sys/delay/delay.c.obj.d"
   "CMakeFiles/test.dir/Core/Src/syscalls.c.obj"

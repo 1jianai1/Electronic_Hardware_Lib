@@ -128,6 +128,30 @@ test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/build
 .PHONY : test/fast
 
+Core/Src/Conmunication/serial.obj: Core/Src/Conmunication/serial.c.obj
+.PHONY : Core/Src/Conmunication/serial.obj
+
+# target to build an object file
+Core/Src/Conmunication/serial.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Conmunication/serial.c.obj
+.PHONY : Core/Src/Conmunication/serial.c.obj
+
+Core/Src/Conmunication/serial.i: Core/Src/Conmunication/serial.c.i
+.PHONY : Core/Src/Conmunication/serial.i
+
+# target to preprocess a source file
+Core/Src/Conmunication/serial.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Conmunication/serial.c.i
+.PHONY : Core/Src/Conmunication/serial.c.i
+
+Core/Src/Conmunication/serial.s: Core/Src/Conmunication/serial.c.s
+.PHONY : Core/Src/Conmunication/serial.s
+
+# target to generate assembly for a file
+Core/Src/Conmunication/serial.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Conmunication/serial.c.s
+.PHONY : Core/Src/Conmunication/serial.c.s
+
 Core/Src/Hardware/IMU/MPU9250/iic_moni.obj: Core/Src/Hardware/IMU/MPU9250/iic_moni.c.obj
 .PHONY : Core/Src/Hardware/IMU/MPU9250/iic_moni.obj
 
@@ -391,6 +415,30 @@ Core/Src/stm32f4xx_it.s: Core/Src/stm32f4xx_it.c.s
 Core/Src/stm32f4xx_it.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/stm32f4xx_it.c.s
 .PHONY : Core/Src/stm32f4xx_it.c.s
+
+Core/Src/sys/Config/config.obj: Core/Src/sys/Config/config.c.obj
+.PHONY : Core/Src/sys/Config/config.obj
+
+# target to build an object file
+Core/Src/sys/Config/config.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/sys/Config/config.c.obj
+.PHONY : Core/Src/sys/Config/config.c.obj
+
+Core/Src/sys/Config/config.i: Core/Src/sys/Config/config.c.i
+.PHONY : Core/Src/sys/Config/config.i
+
+# target to preprocess a source file
+Core/Src/sys/Config/config.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/sys/Config/config.c.i
+.PHONY : Core/Src/sys/Config/config.c.i
+
+Core/Src/sys/Config/config.s: Core/Src/sys/Config/config.c.s
+.PHONY : Core/Src/sys/Config/config.s
+
+# target to generate assembly for a file
+Core/Src/sys/Config/config.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/sys/Config/config.c.s
+.PHONY : Core/Src/sys/Config/config.c.s
 
 Core/Src/sys/delay/delay.obj: Core/Src/sys/delay/delay.c.obj
 .PHONY : Core/Src/sys/delay/delay.obj
@@ -937,6 +985,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... test
+	@echo ... Core/Src/Conmunication/serial.obj
+	@echo ... Core/Src/Conmunication/serial.i
+	@echo ... Core/Src/Conmunication/serial.s
 	@echo ... Core/Src/Hardware/IMU/MPU9250/iic_moni.obj
 	@echo ... Core/Src/Hardware/IMU/MPU9250/iic_moni.i
 	@echo ... Core/Src/Hardware/IMU/MPU9250/iic_moni.s
@@ -970,6 +1021,9 @@ help:
 	@echo ... Core/Src/stm32f4xx_it.obj
 	@echo ... Core/Src/stm32f4xx_it.i
 	@echo ... Core/Src/stm32f4xx_it.s
+	@echo ... Core/Src/sys/Config/config.obj
+	@echo ... Core/Src/sys/Config/config.i
+	@echo ... Core/Src/sys/Config/config.s
 	@echo ... Core/Src/sys/delay/delay.obj
 	@echo ... Core/Src/sys/delay/delay.i
 	@echo ... Core/Src/sys/delay/delay.s

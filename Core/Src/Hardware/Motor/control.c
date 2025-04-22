@@ -3,11 +3,10 @@
 //
 #include "control.h"
 #include "stdio.h"
-#include "filter.h"
 
 MOTOR_PID motor_speed_pid[M_SUM] = {
         {
-                750.0f, 0.1f, 70.0f, 0.0f,
+                320.0f, 1.6f, 100.0f, 0.0f,
                 1000.0f, -1000.0f,
                 8000.0f, -8000.0f
         },
@@ -26,18 +25,22 @@ static float pid_calculate(MotorID id){
 
     m->err = (float)(m->tar_speed - m->en_actual);      // 计算误差
 
-    if(m->err < 4){return 0;}                           // 死区
+    if(m->err < 3 && m->err > -3){return m->output;}                           // 死区 : 因为是位置式 所以返回原值
 
-    // 计算
-    float output =
-              pid->Kp * (m->err)
-            + pid->Ki * (m->integral)
+    // todo 计算
+    float output = 0;
+
+    output =  pid->Kp * (m->err)
             + pid->Kd * (m->err - m->pre_err)
             + pid->Kf * (float)(m->tar_speed - m->pre_tar_speed);
 
-    LIMIT(m->integral, pid->iMax, pid->iMin);   // 积分限幅
+    // todo 积分分离PID --> 当误差过大不启用积分
+    if(m->err <= 15){
+        output += pid->Ki * (m->integral);
+        m->integral += m->err;                                  // 积分累加
+        LIMIT(m->integral, pid->iMax, pid->iMin);   // 积分限幅
+    }
 
-    m->integral += m->err;                                  // 积分累加
     m->pre_err = m->err;                                    // 误差赋值
     m->pre_tar_speed = m->tar_speed;                        // 前馈目标
 
@@ -55,8 +58,10 @@ static void Motor_PID_Calculation(MotorID id){
         // 输出限幅
         LIMIT(output, motor_speed_pid[id].oMax, motor_speed_pid[id].oMin);
 
-        m->output = output;
-        m->setSpeed(id, (int)m->output);
+        float rate = 0.65f;
+        m->output = output * (1 - rate) + m->output * rate;
+//        m->output = output;
+        m->setSpeed(id, (int16_t)m->output);
 }
 
 static void set_target_speed(MotorID id, int16_t speed){

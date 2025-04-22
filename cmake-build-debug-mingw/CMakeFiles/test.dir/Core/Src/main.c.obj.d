@@ -82,4 +82,6 @@ CMakeFiles/test.dir/Core/Src/main.c.obj: \
  G:\Code\Emulate\test\Core\Src\Hardware/IMU/MPU9250/mpu9250.h \
  G:\Code\Emulate\test\Core\Src\Hardware/IMU/MPU9250/iic_moni.h \
  G:\Code\Emulate\test\Core\Src\Hardware/step_motor/step_Track.h \
- g:\code\emulate\test\core\src\hardware\step_motor\step_motor.h
+ g:\code\emulate\test\core\src\hardware\step_motor\step_motor.h \
+ G:\Code\Emulate\test\Core\Src\sys/Config/config.h \
+ G:\Code\Emulate\test\Core\Src\Conmunication/serial.h

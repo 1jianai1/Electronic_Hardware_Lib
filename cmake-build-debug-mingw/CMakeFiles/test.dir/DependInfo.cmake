@@ -31,6 +31,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "G:/Code/Emulate/test/Core/Src/Conmunication/serial.c" "CMakeFiles/test.dir/Core/Src/Conmunication/serial.c.obj" "gcc" "CMakeFiles/test.dir/Core/Src/Conmunication/serial.c.obj.d"
   "G:/Code/Emulate/test/Core/Src/Hardware/IMU/MPU9250/iic_moni.c" "CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU9250/iic_moni.c.obj" "gcc" "CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU9250/iic_moni.c.obj.d"
   "G:/Code/Emulate/test/Core/Src/Hardware/IMU/MPU9250/mpu9250.c" "CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU9250/mpu9250.c.obj" "gcc" "CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU9250/mpu9250.c.obj.d"
   "G:/Code/Emulate/test/Core/Src/Hardware/Motor/control.c" "CMakeFiles/test.dir/Core/Src/Hardware/Motor/control.c.obj" "gcc" "CMakeFiles/test.dir/Core/Src/Hardware/Motor/control.c.obj.d"
@@ -42,6 +43,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "G:/Code/Emulate/test/Core/Src/main.c" "CMakeFiles/test.dir/Core/Src/main.c.obj" "gcc" "CMakeFiles/test.dir/Core/Src/main.c.obj.d"
   "G:/Code/Emulate/test/Core/Src/stm32f4xx_hal_msp.c" "CMakeFiles/test.dir/Core/Src/stm32f4xx_hal_msp.c.obj" "gcc" "CMakeFiles/test.dir/Core/Src/stm32f4xx_hal_msp.c.obj.d"
   "G:/Code/Emulate/test/Core/Src/stm32f4xx_it.c" "CMakeFiles/test.dir/Core/Src/stm32f4xx_it.c.obj" "gcc" "CMakeFiles/test.dir/Core/Src/stm32f4xx_it.c.obj.d"
+  "G:/Code/Emulate/test/Core/Src/sys/Config/config.c" "CMakeFiles/test.dir/Core/Src/sys/config/config.c.obj" "gcc" "CMakeFiles/test.dir/Core/Src/sys/config/config.c.obj.d"
   "G:/Code/Emulate/test/Core/Src/sys/delay/delay.c" "CMakeFiles/test.dir/Core/Src/sys/delay/delay.c.obj" "gcc" "CMakeFiles/test.dir/Core/Src/sys/delay/delay.c.obj.d"
   "G:/Code/Emulate/test/Core/Src/syscalls.c" "CMakeFiles/test.dir/Core/Src/syscalls.c.obj" "gcc" "CMakeFiles/test.dir/Core/Src/syscalls.c.obj.d"
   "G:/Code/Emulate/test/Core/Src/sysmem.c" "CMakeFiles/test.dir/Core/Src/sysmem.c.obj" "gcc" "CMakeFiles/test.dir/Core/Src/sysmem.c.obj.d"

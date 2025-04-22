@@ -2628,7 +2628,7 @@ HAL_StatusTypeDef HAL_ETH_SetWakeUpFilter(ETH_HandleTypeDef *heth, uint32_t *pFi
   /* Reset Filter Pointer */
   SET_BIT(heth->Instance->MACPMTCSR, ETH_MACPMTCSR_WFFRPR);
 
-  /* Wake up packet filter config */
+  /* Wake up packet filter Config */
   for (regindex = 0; regindex < Count; regindex++)
   {
     /* Write filter regs */
