@@ -119,7 +119,6 @@ static void step_move(STEPID id, int32_t tar_steps, uint32_t freq){
 
     // todo 重新设置占空比(占空比永远为比较值的一半, 即50%占空比)
     m->hw->pwmSetCompare(id, freq);
-
     // todo 重新启动定时器
     m->hw->htimStart(id);
 

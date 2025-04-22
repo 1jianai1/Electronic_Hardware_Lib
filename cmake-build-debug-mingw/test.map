@@ -1128,7 +1128,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x47 CMakeFiles/test.dir/Core/Src/Hardware/step_motor/step_Track.c.obj
  .debug_macro   0x00000000      0x2aa CMakeFiles/test.dir/Core/Src/Hardware/step_motor/step_Track.c.obj
  .debug_macro   0x00000000      0x126 CMakeFiles/test.dir/Core/Src/Hardware/step_motor/step_Track.c.obj
- .debug_macro   0x00000000       0x16 CMakeFiles/test.dir/Core/Src/Hardware/step_motor/step_Track.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/test.dir/Core/Src/Hardware/step_motor/step_Track.c.obj
  .debug_macro   0x00000000       0x10 CMakeFiles/test.dir/Core/Src/Hardware/step_motor/step_Track.c.obj
  .debug_macro   0x00000000       0x64 CMakeFiles/test.dir/Core/Src/Hardware/step_motor/step_Track.c.obj
  .debug_macro   0x00000000       0x1e CMakeFiles/test.dir/Core/Src/Hardware/step_motor/step_Track.c.obj
@@ -1160,7 +1160,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x29 CMakeFiles/test.dir/Core/Src/Hardware/step_motor/step_Track.c.obj
  .debug_macro   0x00000000      0x19b CMakeFiles/test.dir/Core/Src/Hardware/step_motor/step_Track.c.obj
  .debug_line    0x00000000      0x7d0 CMakeFiles/test.dir/Core/Src/Hardware/step_motor/step_Track.c.obj
- .debug_str     0x00000000    0x8a394 CMakeFiles/test.dir/Core/Src/Hardware/step_motor/step_Track.c.obj
+ .debug_str     0x00000000    0x8a38a CMakeFiles/test.dir/Core/Src/Hardware/step_motor/step_Track.c.obj
  .comment       0x00000000       0x4a CMakeFiles/test.dir/Core/Src/Hardware/step_motor/step_Track.c.obj
  .debug_frame   0x00000000       0x38 CMakeFiles/test.dir/Core/Src/Hardware/step_motor/step_Track.c.obj
  .ARM.attributes
@@ -5185,54 +5185,54 @@ LOAD d:/clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.1
  .debug_ranges  0x00000c80       0x98 CMakeFiles/test.dir/Core/Src/syscalls.c.obj
  .debug_ranges  0x00000d18       0x20 CMakeFiles/test.dir/startup_stm32f401xc.s.obj
 
-.debug_macro    0x00000000     0x3d63
+.debug_macro    0x00000000     0x3d57
  .debug_macro   0x00000000      0x379 CMakeFiles/test.dir/Core/Src/Hardware/step_motor/step_motor.c.obj
- .debug_macro   0x00000379       0x16 CMakeFiles/test.dir/Core/Src/Hardware/step_motor/step_motor.c.obj
- .debug_macro   0x0000038f       0x16 CMakeFiles/test.dir/Core/Src/Hardware/step_motor/step_motor.c.obj
- .debug_macro   0x000003a5       0x16 CMakeFiles/test.dir/Core/Src/Hardware/step_motor/step_motor.c.obj
- .debug_macro   0x000003bb       0x29 CMakeFiles/test.dir/Core/Src/Hardware/step_motor/step_motor.c.obj
- .debug_macro   0x000003e4      0x433 CMakeFiles/test.dir/Core/Src/main.c.obj
- .debug_macro   0x00000817       0x16 CMakeFiles/test.dir/Core/Src/main.c.obj
- .debug_macro   0x0000082d      0x201 CMakeFiles/test.dir/Core/Src/main.c.obj
- .debug_macro   0x00000a2e       0x7c CMakeFiles/test.dir/Core/Src/main.c.obj
- .debug_macro   0x00000aaa       0x17 CMakeFiles/test.dir/Core/Src/main.c.obj
- .debug_macro   0x00000ac1      0x118 CMakeFiles/test.dir/Core/Src/main.c.obj
- .debug_macro   0x00000bd9      0x169 CMakeFiles/test.dir/Core/Src/main.c.obj
- .debug_macro   0x00000d42       0x10 CMakeFiles/test.dir/Core/Src/main.c.obj
- .debug_macro   0x00000d52      0x89d CMakeFiles/test.dir/Core/Src/main.c.obj
- .debug_macro   0x000015ef       0x1c CMakeFiles/test.dir/Core/Src/main.c.obj
- .debug_macro   0x0000160b      0x1e2 CMakeFiles/test.dir/Core/Src/gpio.c.obj
- .debug_macro   0x000017ed      0x1e2 CMakeFiles/test.dir/Core/Src/tim.c.obj
- .debug_macro   0x000019cf      0x1e2 CMakeFiles/test.dir/Core/Src/usart.c.obj
- .debug_macro   0x00001bb1      0x1e2 CMakeFiles/test.dir/Core/Src/stm32f4xx_it.c.obj
- .debug_macro   0x00001d93      0x1d8 CMakeFiles/test.dir/Core/Src/stm32f4xx_hal_msp.c.obj
- .debug_macro   0x00001f6b      0x1f2 CMakeFiles/test.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
- .debug_macro   0x0000215d      0x1d4 CMakeFiles/test.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
- .debug_macro   0x00002331      0x1d4 CMakeFiles/test.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
- .debug_macro   0x00002505      0x1ce CMakeFiles/test.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
- .debug_macro   0x000026d3      0x22e CMakeFiles/test.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
- .debug_macro   0x00002901      0x1cf CMakeFiles/test.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .debug_macro   0x00002ad0      0x1ce CMakeFiles/test.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
- .debug_macro   0x00002c9e      0x1cf CMakeFiles/test.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
- .debug_macro   0x00002e6d      0x1ce CMakeFiles/test.dir/Core/Src/system_stm32f4xx.c.obj
- .debug_macro   0x0000303b       0xec CMakeFiles/test.dir/Core/Src/sysmem.c.obj
- .debug_macro   0x00003127       0x10 CMakeFiles/test.dir/Core/Src/sysmem.c.obj
- .debug_macro   0x00003137       0x5e CMakeFiles/test.dir/Core/Src/sysmem.c.obj
- .debug_macro   0x00003195       0x94 CMakeFiles/test.dir/Core/Src/sysmem.c.obj
- .debug_macro   0x00003229       0x57 CMakeFiles/test.dir/Core/Src/sysmem.c.obj
- .debug_macro   0x00003280      0x23b CMakeFiles/test.dir/Core/Src/sysmem.c.obj
- .debug_macro   0x000034bb      0x23d CMakeFiles/test.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x000036f8       0x10 CMakeFiles/test.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00003708       0x10 CMakeFiles/test.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00003718       0x10 CMakeFiles/test.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00003728       0x35 CMakeFiles/test.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x0000375d      0x12c CMakeFiles/test.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00003889      0x241 CMakeFiles/test.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00003aca       0x1c CMakeFiles/test.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00003ae6       0x10 CMakeFiles/test.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00003af6      0x189 CMakeFiles/test.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00003c7f       0x16 CMakeFiles/test.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00003c95       0xce CMakeFiles/test.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00000379       0x10 CMakeFiles/test.dir/Core/Src/Hardware/step_motor/step_motor.c.obj
+ .debug_macro   0x00000389       0x16 CMakeFiles/test.dir/Core/Src/Hardware/step_motor/step_motor.c.obj
+ .debug_macro   0x0000039f       0x16 CMakeFiles/test.dir/Core/Src/Hardware/step_motor/step_motor.c.obj
+ .debug_macro   0x000003b5       0x29 CMakeFiles/test.dir/Core/Src/Hardware/step_motor/step_motor.c.obj
+ .debug_macro   0x000003de      0x433 CMakeFiles/test.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000811       0x16 CMakeFiles/test.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000827      0x201 CMakeFiles/test.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000a28       0x7c CMakeFiles/test.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000aa4       0x17 CMakeFiles/test.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000abb      0x118 CMakeFiles/test.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000bd3      0x169 CMakeFiles/test.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000d3c       0x10 CMakeFiles/test.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000d4c      0x89d CMakeFiles/test.dir/Core/Src/main.c.obj
+ .debug_macro   0x000015e9       0x16 CMakeFiles/test.dir/Core/Src/main.c.obj
+ .debug_macro   0x000015ff      0x1e2 CMakeFiles/test.dir/Core/Src/gpio.c.obj
+ .debug_macro   0x000017e1      0x1e2 CMakeFiles/test.dir/Core/Src/tim.c.obj
+ .debug_macro   0x000019c3      0x1e2 CMakeFiles/test.dir/Core/Src/usart.c.obj
+ .debug_macro   0x00001ba5      0x1e2 CMakeFiles/test.dir/Core/Src/stm32f4xx_it.c.obj
+ .debug_macro   0x00001d87      0x1d8 CMakeFiles/test.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+ .debug_macro   0x00001f5f      0x1f2 CMakeFiles/test.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_macro   0x00002151      0x1d4 CMakeFiles/test.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+ .debug_macro   0x00002325      0x1d4 CMakeFiles/test.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+ .debug_macro   0x000024f9      0x1ce CMakeFiles/test.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+ .debug_macro   0x000026c7      0x22e CMakeFiles/test.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+ .debug_macro   0x000028f5      0x1cf CMakeFiles/test.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .debug_macro   0x00002ac4      0x1ce CMakeFiles/test.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .debug_macro   0x00002c92      0x1cf CMakeFiles/test.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+ .debug_macro   0x00002e61      0x1ce CMakeFiles/test.dir/Core/Src/system_stm32f4xx.c.obj
+ .debug_macro   0x0000302f       0xec CMakeFiles/test.dir/Core/Src/sysmem.c.obj
+ .debug_macro   0x0000311b       0x10 CMakeFiles/test.dir/Core/Src/sysmem.c.obj
+ .debug_macro   0x0000312b       0x5e CMakeFiles/test.dir/Core/Src/sysmem.c.obj
+ .debug_macro   0x00003189       0x94 CMakeFiles/test.dir/Core/Src/sysmem.c.obj
+ .debug_macro   0x0000321d       0x57 CMakeFiles/test.dir/Core/Src/sysmem.c.obj
+ .debug_macro   0x00003274      0x23b CMakeFiles/test.dir/Core/Src/sysmem.c.obj
+ .debug_macro   0x000034af      0x23d CMakeFiles/test.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x000036ec       0x10 CMakeFiles/test.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x000036fc       0x10 CMakeFiles/test.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x0000370c       0x10 CMakeFiles/test.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x0000371c       0x35 CMakeFiles/test.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00003751      0x12c CMakeFiles/test.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x0000387d      0x241 CMakeFiles/test.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00003abe       0x1c CMakeFiles/test.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00003ada       0x10 CMakeFiles/test.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00003aea      0x189 CMakeFiles/test.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00003c73       0x16 CMakeFiles/test.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00003c89       0xce CMakeFiles/test.dir/Core/Src/syscalls.c.obj
 
 .debug_line     0x00000000     0xf65c
  .debug_line    0x00000000      0xbc6 CMakeFiles/test.dir/Core/Src/Hardware/step_motor/step_motor.c.obj
@@ -5255,44 +5255,44 @@ LOAD d:/clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.1
  .debug_line    0x0000efb3      0x61e CMakeFiles/test.dir/Core/Src/syscalls.c.obj
  .debug_line    0x0000f5d1       0x8b CMakeFiles/test.dir/startup_stm32f401xc.s.obj
 
-.debug_str      0x00000000    0x92e87
- .debug_str     0x00000000    0x89fb9 CMakeFiles/test.dir/Core/Src/Hardware/step_motor/step_motor.c.obj
-                              0x8a324 (size before relaxing)
- .debug_str     0x00089fb9     0x43bb CMakeFiles/test.dir/Core/Src/main.c.obj
-                              0x8e5b4 (size before relaxing)
- .debug_str     0x0008e374       0x84 CMakeFiles/test.dir/Core/Src/gpio.c.obj
+.debug_str      0x00000000    0x92e7d
+ .debug_str     0x00000000    0x89faf CMakeFiles/test.dir/Core/Src/Hardware/step_motor/step_motor.c.obj
+                              0x8a31a (size before relaxing)
+ .debug_str     0x00089faf     0x43bb CMakeFiles/test.dir/Core/Src/main.c.obj
+                              0x8e5aa (size before relaxing)
+ .debug_str     0x0008e36a       0x84 CMakeFiles/test.dir/Core/Src/gpio.c.obj
                               0x86304 (size before relaxing)
- .debug_str     0x0008e3f8      0x612 CMakeFiles/test.dir/Core/Src/tim.c.obj
+ .debug_str     0x0008e3ee      0x612 CMakeFiles/test.dir/Core/Src/tim.c.obj
                               0x86e3e (size before relaxing)
- .debug_str     0x0008ea0a      0x23b CMakeFiles/test.dir/Core/Src/usart.c.obj
+ .debug_str     0x0008ea00      0x23b CMakeFiles/test.dir/Core/Src/usart.c.obj
                               0x86b2f (size before relaxing)
- .debug_str     0x0008ec45      0x10a CMakeFiles/test.dir/Core/Src/stm32f4xx_it.c.obj
+ .debug_str     0x0008ec3b      0x10a CMakeFiles/test.dir/Core/Src/stm32f4xx_it.c.obj
                               0x86976 (size before relaxing)
- .debug_str     0x0008ed4f       0x3e CMakeFiles/test.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+ .debug_str     0x0008ed45       0x3e CMakeFiles/test.dir/Core/Src/stm32f4xx_hal_msp.c.obj
                               0x86267 (size before relaxing)
- .debug_str     0x0008ed8d      0x2f2 CMakeFiles/test.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_str     0x0008ed83      0x2f2 CMakeFiles/test.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
                               0x86724 (size before relaxing)
- .debug_str     0x0008f07f      0x171 CMakeFiles/test.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+ .debug_str     0x0008f075      0x171 CMakeFiles/test.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
                               0x86492 (size before relaxing)
- .debug_str     0x0008f1f0      0x335 CMakeFiles/test.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+ .debug_str     0x0008f1e6      0x335 CMakeFiles/test.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
                               0x86713 (size before relaxing)
- .debug_str     0x0008f525      0x455 CMakeFiles/test.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+ .debug_str     0x0008f51b      0x455 CMakeFiles/test.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
                               0x86aa3 (size before relaxing)
- .debug_str     0x0008f97a      0x5b9 CMakeFiles/test.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+ .debug_str     0x0008f970      0x5b9 CMakeFiles/test.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
                               0x86cea (size before relaxing)
- .debug_str     0x0008ff33      0xcaa CMakeFiles/test.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .debug_str     0x0008ff29      0xcaa CMakeFiles/test.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
                               0x87606 (size before relaxing)
- .debug_str     0x00090bdd      0x500 CMakeFiles/test.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .debug_str     0x00090bd3      0x500 CMakeFiles/test.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
                               0x86da7 (size before relaxing)
- .debug_str     0x000910dd      0x63d CMakeFiles/test.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+ .debug_str     0x000910d3      0x63d CMakeFiles/test.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
                               0x86ca3 (size before relaxing)
- .debug_str     0x0009171a       0x5c CMakeFiles/test.dir/Core/Src/system_stm32f4xx.c.obj
+ .debug_str     0x00091710       0x5c CMakeFiles/test.dir/Core/Src/system_stm32f4xx.c.obj
                               0x86317 (size before relaxing)
- .debug_str     0x00091776      0x4e4 CMakeFiles/test.dir/Core/Src/sysmem.c.obj
+ .debug_str     0x0009176c      0x4e4 CMakeFiles/test.dir/Core/Src/sysmem.c.obj
                                0x57d1 (size before relaxing)
- .debug_str     0x00091c5a     0x11f4 CMakeFiles/test.dir/Core/Src/syscalls.c.obj
+ .debug_str     0x00091c50     0x11f4 CMakeFiles/test.dir/Core/Src/syscalls.c.obj
                                0x8520 (size before relaxing)
- .debug_str     0x00092e4e       0x39 CMakeFiles/test.dir/startup_stm32f401xc.s.obj
+ .debug_str     0x00092e44       0x39 CMakeFiles/test.dir/startup_stm32f401xc.s.obj
                                  0x66 (size before relaxing)
 
 .comment        0x00000000       0x49
