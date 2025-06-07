@@ -1,0 +1,5 @@
+G:/Code/Emulate/test/cmake-build-debug-mingw/CMakeFiles/test.dir
+G:/Code/Emulate/test/cmake-build-debug-mingw/CMakeFiles/edit_cache.dir
+G:/Code/Emulate/test/cmake-build-debug-mingw/CMakeFiles/rebuild_cache.dir
+G:/Code/Emulate/test/cmake-build-debug-mingw/cmake/stm32cubemx/CMakeFiles/edit_cache.dir
+G:/Code/Emulate/test/cmake-build-debug-mingw/cmake/stm32cubemx/CMakeFiles/rebuild_cache.dir
