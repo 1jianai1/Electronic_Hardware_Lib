@@ -28,12 +28,12 @@
 #include <stdio.h>
 #include "sys/delay/delay.h"
 #include "Hardware/Motor/control.h"
-#include "Hardware/IMU/MPU9250/mpu9250.h"
+#include "Hardware/IMU/MPU/MPU9250/mpu9250.h"
 #include "Hardware/step_motor/step_Track.h"
 #include "sys/Config/config.h"
 #include "Conmunication/serial.h"
-#include "Hardware/IMU/MPU6050/mpu6050.h"
-#include "Hardware/IMU/DMP/inv_mpu.h"
+#include "Hardware/IMU/MPU/MPU6050/mpu6050.h"
+#include "Hardware/IMU/MPU/DMP/inv_mpu.h"
 
 /* USER CODE END Includes */
 

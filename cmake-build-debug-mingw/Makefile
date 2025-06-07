@@ -152,77 +152,77 @@ Core/Src/Conmunication/serial.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Conmunication/serial.c.s
 .PHONY : Core/Src/Conmunication/serial.c.s
 
-Core/Src/Hardware/IMU/DMP/inv_mpu.obj: Core/Src/Hardware/IMU/DMP/inv_mpu.c.obj
-.PHONY : Core/Src/Hardware/IMU/DMP/inv_mpu.obj
+Core/Src/Hardware/IMU/MPU/DMP/inv_mpu.obj: Core/Src/Hardware/IMU/MPU/DMP/inv_mpu.c.obj
+.PHONY : Core/Src/Hardware/IMU/MPU/DMP/inv_mpu.obj
 
 # target to build an object file
-Core/Src/Hardware/IMU/DMP/inv_mpu.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Hardware/IMU/DMP/inv_mpu.c.obj
-.PHONY : Core/Src/Hardware/IMU/DMP/inv_mpu.c.obj
+Core/Src/Hardware/IMU/MPU/DMP/inv_mpu.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU/DMP/inv_mpu.c.obj
+.PHONY : Core/Src/Hardware/IMU/MPU/DMP/inv_mpu.c.obj
 
-Core/Src/Hardware/IMU/DMP/inv_mpu.i: Core/Src/Hardware/IMU/DMP/inv_mpu.c.i
-.PHONY : Core/Src/Hardware/IMU/DMP/inv_mpu.i
+Core/Src/Hardware/IMU/MPU/DMP/inv_mpu.i: Core/Src/Hardware/IMU/MPU/DMP/inv_mpu.c.i
+.PHONY : Core/Src/Hardware/IMU/MPU/DMP/inv_mpu.i
 
 # target to preprocess a source file
-Core/Src/Hardware/IMU/DMP/inv_mpu.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Hardware/IMU/DMP/inv_mpu.c.i
-.PHONY : Core/Src/Hardware/IMU/DMP/inv_mpu.c.i
+Core/Src/Hardware/IMU/MPU/DMP/inv_mpu.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU/DMP/inv_mpu.c.i
+.PHONY : Core/Src/Hardware/IMU/MPU/DMP/inv_mpu.c.i
 
-Core/Src/Hardware/IMU/DMP/inv_mpu.s: Core/Src/Hardware/IMU/DMP/inv_mpu.c.s
-.PHONY : Core/Src/Hardware/IMU/DMP/inv_mpu.s
+Core/Src/Hardware/IMU/MPU/DMP/inv_mpu.s: Core/Src/Hardware/IMU/MPU/DMP/inv_mpu.c.s
+.PHONY : Core/Src/Hardware/IMU/MPU/DMP/inv_mpu.s
 
 # target to generate assembly for a file
-Core/Src/Hardware/IMU/DMP/inv_mpu.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Hardware/IMU/DMP/inv_mpu.c.s
-.PHONY : Core/Src/Hardware/IMU/DMP/inv_mpu.c.s
+Core/Src/Hardware/IMU/MPU/DMP/inv_mpu.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU/DMP/inv_mpu.c.s
+.PHONY : Core/Src/Hardware/IMU/MPU/DMP/inv_mpu.c.s
 
-Core/Src/Hardware/IMU/DMP/inv_mpu_dmp_motion_driver.obj: Core/Src/Hardware/IMU/DMP/inv_mpu_dmp_motion_driver.c.obj
-.PHONY : Core/Src/Hardware/IMU/DMP/inv_mpu_dmp_motion_driver.obj
+Core/Src/Hardware/IMU/MPU/DMP/inv_mpu_dmp_motion_driver.obj: Core/Src/Hardware/IMU/MPU/DMP/inv_mpu_dmp_motion_driver.c.obj
+.PHONY : Core/Src/Hardware/IMU/MPU/DMP/inv_mpu_dmp_motion_driver.obj
 
 # target to build an object file
-Core/Src/Hardware/IMU/DMP/inv_mpu_dmp_motion_driver.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Hardware/IMU/DMP/inv_mpu_dmp_motion_driver.c.obj
-.PHONY : Core/Src/Hardware/IMU/DMP/inv_mpu_dmp_motion_driver.c.obj
+Core/Src/Hardware/IMU/MPU/DMP/inv_mpu_dmp_motion_driver.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU/DMP/inv_mpu_dmp_motion_driver.c.obj
+.PHONY : Core/Src/Hardware/IMU/MPU/DMP/inv_mpu_dmp_motion_driver.c.obj
 
-Core/Src/Hardware/IMU/DMP/inv_mpu_dmp_motion_driver.i: Core/Src/Hardware/IMU/DMP/inv_mpu_dmp_motion_driver.c.i
-.PHONY : Core/Src/Hardware/IMU/DMP/inv_mpu_dmp_motion_driver.i
+Core/Src/Hardware/IMU/MPU/DMP/inv_mpu_dmp_motion_driver.i: Core/Src/Hardware/IMU/MPU/DMP/inv_mpu_dmp_motion_driver.c.i
+.PHONY : Core/Src/Hardware/IMU/MPU/DMP/inv_mpu_dmp_motion_driver.i
 
 # target to preprocess a source file
-Core/Src/Hardware/IMU/DMP/inv_mpu_dmp_motion_driver.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Hardware/IMU/DMP/inv_mpu_dmp_motion_driver.c.i
-.PHONY : Core/Src/Hardware/IMU/DMP/inv_mpu_dmp_motion_driver.c.i
+Core/Src/Hardware/IMU/MPU/DMP/inv_mpu_dmp_motion_driver.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU/DMP/inv_mpu_dmp_motion_driver.c.i
+.PHONY : Core/Src/Hardware/IMU/MPU/DMP/inv_mpu_dmp_motion_driver.c.i
 
-Core/Src/Hardware/IMU/DMP/inv_mpu_dmp_motion_driver.s: Core/Src/Hardware/IMU/DMP/inv_mpu_dmp_motion_driver.c.s
-.PHONY : Core/Src/Hardware/IMU/DMP/inv_mpu_dmp_motion_driver.s
+Core/Src/Hardware/IMU/MPU/DMP/inv_mpu_dmp_motion_driver.s: Core/Src/Hardware/IMU/MPU/DMP/inv_mpu_dmp_motion_driver.c.s
+.PHONY : Core/Src/Hardware/IMU/MPU/DMP/inv_mpu_dmp_motion_driver.s
 
 # target to generate assembly for a file
-Core/Src/Hardware/IMU/DMP/inv_mpu_dmp_motion_driver.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Hardware/IMU/DMP/inv_mpu_dmp_motion_driver.c.s
-.PHONY : Core/Src/Hardware/IMU/DMP/inv_mpu_dmp_motion_driver.c.s
+Core/Src/Hardware/IMU/MPU/DMP/inv_mpu_dmp_motion_driver.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU/DMP/inv_mpu_dmp_motion_driver.c.s
+.PHONY : Core/Src/Hardware/IMU/MPU/DMP/inv_mpu_dmp_motion_driver.c.s
 
-Core/Src/Hardware/IMU/MPU6050/mpu6050.obj: Core/Src/Hardware/IMU/MPU6050/mpu6050.c.obj
-.PHONY : Core/Src/Hardware/IMU/MPU6050/mpu6050.obj
+Core/Src/Hardware/IMU/MPU/MPU6050/mpu6050.obj: Core/Src/Hardware/IMU/MPU/MPU6050/mpu6050.c.obj
+.PHONY : Core/Src/Hardware/IMU/MPU/MPU6050/mpu6050.obj
 
 # target to build an object file
-Core/Src/Hardware/IMU/MPU6050/mpu6050.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU6050/mpu6050.c.obj
-.PHONY : Core/Src/Hardware/IMU/MPU6050/mpu6050.c.obj
+Core/Src/Hardware/IMU/MPU/MPU6050/mpu6050.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU/MPU6050/mpu6050.c.obj
+.PHONY : Core/Src/Hardware/IMU/MPU/MPU6050/mpu6050.c.obj
 
-Core/Src/Hardware/IMU/MPU6050/mpu6050.i: Core/Src/Hardware/IMU/MPU6050/mpu6050.c.i
-.PHONY : Core/Src/Hardware/IMU/MPU6050/mpu6050.i
+Core/Src/Hardware/IMU/MPU/MPU6050/mpu6050.i: Core/Src/Hardware/IMU/MPU/MPU6050/mpu6050.c.i
+.PHONY : Core/Src/Hardware/IMU/MPU/MPU6050/mpu6050.i
 
 # target to preprocess a source file
-Core/Src/Hardware/IMU/MPU6050/mpu6050.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU6050/mpu6050.c.i
-.PHONY : Core/Src/Hardware/IMU/MPU6050/mpu6050.c.i
+Core/Src/Hardware/IMU/MPU/MPU6050/mpu6050.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU/MPU6050/mpu6050.c.i
+.PHONY : Core/Src/Hardware/IMU/MPU/MPU6050/mpu6050.c.i
 
-Core/Src/Hardware/IMU/MPU6050/mpu6050.s: Core/Src/Hardware/IMU/MPU6050/mpu6050.c.s
-.PHONY : Core/Src/Hardware/IMU/MPU6050/mpu6050.s
+Core/Src/Hardware/IMU/MPU/MPU6050/mpu6050.s: Core/Src/Hardware/IMU/MPU/MPU6050/mpu6050.c.s
+.PHONY : Core/Src/Hardware/IMU/MPU/MPU6050/mpu6050.s
 
 # target to generate assembly for a file
-Core/Src/Hardware/IMU/MPU6050/mpu6050.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU6050/mpu6050.c.s
-.PHONY : Core/Src/Hardware/IMU/MPU6050/mpu6050.c.s
+Core/Src/Hardware/IMU/MPU/MPU6050/mpu6050.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU/MPU6050/mpu6050.c.s
+.PHONY : Core/Src/Hardware/IMU/MPU/MPU6050/mpu6050.c.s
 
 Core/Src/Hardware/Motor/control.obj: Core/Src/Hardware/Motor/control.c.obj
 .PHONY : Core/Src/Hardware/Motor/control.obj
@@ -1108,15 +1108,15 @@ help:
 	@echo ... Core/Src/Conmunication/serial.obj
 	@echo ... Core/Src/Conmunication/serial.i
 	@echo ... Core/Src/Conmunication/serial.s
-	@echo ... Core/Src/Hardware/IMU/DMP/inv_mpu.obj
-	@echo ... Core/Src/Hardware/IMU/DMP/inv_mpu.i
-	@echo ... Core/Src/Hardware/IMU/DMP/inv_mpu.s
-	@echo ... Core/Src/Hardware/IMU/DMP/inv_mpu_dmp_motion_driver.obj
-	@echo ... Core/Src/Hardware/IMU/DMP/inv_mpu_dmp_motion_driver.i
-	@echo ... Core/Src/Hardware/IMU/DMP/inv_mpu_dmp_motion_driver.s
-	@echo ... Core/Src/Hardware/IMU/MPU6050/mpu6050.obj
-	@echo ... Core/Src/Hardware/IMU/MPU6050/mpu6050.i
-	@echo ... Core/Src/Hardware/IMU/MPU6050/mpu6050.s
+	@echo ... Core/Src/Hardware/IMU/MPU/DMP/inv_mpu.obj
+	@echo ... Core/Src/Hardware/IMU/MPU/DMP/inv_mpu.i
+	@echo ... Core/Src/Hardware/IMU/MPU/DMP/inv_mpu.s
+	@echo ... Core/Src/Hardware/IMU/MPU/DMP/inv_mpu_dmp_motion_driver.obj
+	@echo ... Core/Src/Hardware/IMU/MPU/DMP/inv_mpu_dmp_motion_driver.i
+	@echo ... Core/Src/Hardware/IMU/MPU/DMP/inv_mpu_dmp_motion_driver.s
+	@echo ... Core/Src/Hardware/IMU/MPU/MPU6050/mpu6050.obj
+	@echo ... Core/Src/Hardware/IMU/MPU/MPU6050/mpu6050.i
+	@echo ... Core/Src/Hardware/IMU/MPU/MPU6050/mpu6050.s
 	@echo ... Core/Src/Hardware/Motor/control.obj
 	@echo ... Core/Src/Hardware/Motor/control.i
 	@echo ... Core/Src/Hardware/Motor/control.s

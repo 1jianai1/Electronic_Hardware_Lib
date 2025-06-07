@@ -180,52 +180,10 @@ CMakeFiles/test.dir/Core/Src/Hardware/Screen/OLED/OLED.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Core/Src/Hardware/Screen/OLED/OLED.c.s"
 	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\Code\Emulate\test\Core\Src\Hardware\Screen\OLED\OLED.c -o CMakeFiles\test.dir\Core\Src\Hardware\Screen\OLED\OLED.c.s
 
-CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU6050/mpu6050.c.obj: CMakeFiles/test.dir/flags.make
-CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU6050/mpu6050.c.obj: G:/Code/Emulate/test/Core/Src/Hardware/IMU/MPU6050/mpu6050.c
-CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU6050/mpu6050.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\Code\Emulate\test\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU6050/mpu6050.c.obj"
-	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU6050/mpu6050.c.obj -MF CMakeFiles\test.dir\Core\Src\Hardware\IMU\MPU6050\mpu6050.c.obj.d -o CMakeFiles\test.dir\Core\Src\Hardware\IMU\MPU6050\mpu6050.c.obj -c G:\Code\Emulate\test\Core\Src\Hardware\IMU\MPU6050\mpu6050.c
-
-CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU6050/mpu6050.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU6050/mpu6050.c.i"
-	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\Code\Emulate\test\Core\Src\Hardware\IMU\MPU6050\mpu6050.c > CMakeFiles\test.dir\Core\Src\Hardware\IMU\MPU6050\mpu6050.c.i
-
-CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU6050/mpu6050.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU6050/mpu6050.c.s"
-	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\Code\Emulate\test\Core\Src\Hardware\IMU\MPU6050\mpu6050.c -o CMakeFiles\test.dir\Core\Src\Hardware\IMU\MPU6050\mpu6050.c.s
-
-CMakeFiles/test.dir/Core/Src/Hardware/IMU/DMP/inv_mpu.c.obj: CMakeFiles/test.dir/flags.make
-CMakeFiles/test.dir/Core/Src/Hardware/IMU/DMP/inv_mpu.c.obj: G:/Code/Emulate/test/Core/Src/Hardware/IMU/DMP/inv_mpu.c
-CMakeFiles/test.dir/Core/Src/Hardware/IMU/DMP/inv_mpu.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\Code\Emulate\test\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/test.dir/Core/Src/Hardware/IMU/DMP/inv_mpu.c.obj"
-	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Core/Src/Hardware/IMU/DMP/inv_mpu.c.obj -MF CMakeFiles\test.dir\Core\Src\Hardware\IMU\DMP\inv_mpu.c.obj.d -o CMakeFiles\test.dir\Core\Src\Hardware\IMU\DMP\inv_mpu.c.obj -c G:\Code\Emulate\test\Core\Src\Hardware\IMU\DMP\inv_mpu.c
-
-CMakeFiles/test.dir/Core/Src/Hardware/IMU/DMP/inv_mpu.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Core/Src/Hardware/IMU/DMP/inv_mpu.c.i"
-	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\Code\Emulate\test\Core\Src\Hardware\IMU\DMP\inv_mpu.c > CMakeFiles\test.dir\Core\Src\Hardware\IMU\DMP\inv_mpu.c.i
-
-CMakeFiles/test.dir/Core/Src/Hardware/IMU/DMP/inv_mpu.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Core/Src/Hardware/IMU/DMP/inv_mpu.c.s"
-	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\Code\Emulate\test\Core\Src\Hardware\IMU\DMP\inv_mpu.c -o CMakeFiles\test.dir\Core\Src\Hardware\IMU\DMP\inv_mpu.c.s
-
-CMakeFiles/test.dir/Core/Src/Hardware/IMU/DMP/inv_mpu_dmp_motion_driver.c.obj: CMakeFiles/test.dir/flags.make
-CMakeFiles/test.dir/Core/Src/Hardware/IMU/DMP/inv_mpu_dmp_motion_driver.c.obj: G:/Code/Emulate/test/Core/Src/Hardware/IMU/DMP/inv_mpu_dmp_motion_driver.c
-CMakeFiles/test.dir/Core/Src/Hardware/IMU/DMP/inv_mpu_dmp_motion_driver.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\Code\Emulate\test\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/test.dir/Core/Src/Hardware/IMU/DMP/inv_mpu_dmp_motion_driver.c.obj"
-	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Core/Src/Hardware/IMU/DMP/inv_mpu_dmp_motion_driver.c.obj -MF CMakeFiles\test.dir\Core\Src\Hardware\IMU\DMP\inv_mpu_dmp_motion_driver.c.obj.d -o CMakeFiles\test.dir\Core\Src\Hardware\IMU\DMP\inv_mpu_dmp_motion_driver.c.obj -c G:\Code\Emulate\test\Core\Src\Hardware\IMU\DMP\inv_mpu_dmp_motion_driver.c
-
-CMakeFiles/test.dir/Core/Src/Hardware/IMU/DMP/inv_mpu_dmp_motion_driver.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Core/Src/Hardware/IMU/DMP/inv_mpu_dmp_motion_driver.c.i"
-	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\Code\Emulate\test\Core\Src\Hardware\IMU\DMP\inv_mpu_dmp_motion_driver.c > CMakeFiles\test.dir\Core\Src\Hardware\IMU\DMP\inv_mpu_dmp_motion_driver.c.i
-
-CMakeFiles/test.dir/Core/Src/Hardware/IMU/DMP/inv_mpu_dmp_motion_driver.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Core/Src/Hardware/IMU/DMP/inv_mpu_dmp_motion_driver.c.s"
-	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\Code\Emulate\test\Core\Src\Hardware\IMU\DMP\inv_mpu_dmp_motion_driver.c -o CMakeFiles\test.dir\Core\Src\Hardware\IMU\DMP\inv_mpu_dmp_motion_driver.c.s
-
 CMakeFiles/test.dir/Core/Src/Conmunication/serial.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Core/Src/Conmunication/serial.c.obj: G:/Code/Emulate/test/Core/Src/Conmunication/serial.c
 CMakeFiles/test.dir/Core/Src/Conmunication/serial.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\Code\Emulate\test\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/test.dir/Core/Src/Conmunication/serial.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\Code\Emulate\test\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/test.dir/Core/Src/Conmunication/serial.c.obj"
 	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Core/Src/Conmunication/serial.c.obj -MF CMakeFiles\test.dir\Core\Src\Conmunication\serial.c.obj.d -o CMakeFiles\test.dir\Core\Src\Conmunication\serial.c.obj -c G:\Code\Emulate\test\Core\Src\Conmunication\serial.c
 
 CMakeFiles/test.dir/Core/Src/Conmunication/serial.c.i: cmake_force
@@ -235,6 +193,48 @@ CMakeFiles/test.dir/Core/Src/Conmunication/serial.c.i: cmake_force
 CMakeFiles/test.dir/Core/Src/Conmunication/serial.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Core/Src/Conmunication/serial.c.s"
 	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\Code\Emulate\test\Core\Src\Conmunication\serial.c -o CMakeFiles\test.dir\Core\Src\Conmunication\serial.c.s
+
+CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU/MPU6050/mpu6050.c.obj: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU/MPU6050/mpu6050.c.obj: G:/Code/Emulate/test/Core/Src/Hardware/IMU/MPU/MPU6050/mpu6050.c
+CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU/MPU6050/mpu6050.c.obj: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\Code\Emulate\test\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU/MPU6050/mpu6050.c.obj"
+	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU/MPU6050/mpu6050.c.obj -MF CMakeFiles\test.dir\Core\Src\Hardware\IMU\MPU\MPU6050\mpu6050.c.obj.d -o CMakeFiles\test.dir\Core\Src\Hardware\IMU\MPU\MPU6050\mpu6050.c.obj -c G:\Code\Emulate\test\Core\Src\Hardware\IMU\MPU\MPU6050\mpu6050.c
+
+CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU/MPU6050/mpu6050.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU/MPU6050/mpu6050.c.i"
+	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\Code\Emulate\test\Core\Src\Hardware\IMU\MPU\MPU6050\mpu6050.c > CMakeFiles\test.dir\Core\Src\Hardware\IMU\MPU\MPU6050\mpu6050.c.i
+
+CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU/MPU6050/mpu6050.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU/MPU6050/mpu6050.c.s"
+	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\Code\Emulate\test\Core\Src\Hardware\IMU\MPU\MPU6050\mpu6050.c -o CMakeFiles\test.dir\Core\Src\Hardware\IMU\MPU\MPU6050\mpu6050.c.s
+
+CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU/DMP/inv_mpu.c.obj: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU/DMP/inv_mpu.c.obj: G:/Code/Emulate/test/Core/Src/Hardware/IMU/MPU/DMP/inv_mpu.c
+CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU/DMP/inv_mpu.c.obj: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\Code\Emulate\test\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU/DMP/inv_mpu.c.obj"
+	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU/DMP/inv_mpu.c.obj -MF CMakeFiles\test.dir\Core\Src\Hardware\IMU\MPU\DMP\inv_mpu.c.obj.d -o CMakeFiles\test.dir\Core\Src\Hardware\IMU\MPU\DMP\inv_mpu.c.obj -c G:\Code\Emulate\test\Core\Src\Hardware\IMU\MPU\DMP\inv_mpu.c
+
+CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU/DMP/inv_mpu.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU/DMP/inv_mpu.c.i"
+	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\Code\Emulate\test\Core\Src\Hardware\IMU\MPU\DMP\inv_mpu.c > CMakeFiles\test.dir\Core\Src\Hardware\IMU\MPU\DMP\inv_mpu.c.i
+
+CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU/DMP/inv_mpu.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU/DMP/inv_mpu.c.s"
+	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\Code\Emulate\test\Core\Src\Hardware\IMU\MPU\DMP\inv_mpu.c -o CMakeFiles\test.dir\Core\Src\Hardware\IMU\MPU\DMP\inv_mpu.c.s
+
+CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU/DMP/inv_mpu_dmp_motion_driver.c.obj: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU/DMP/inv_mpu_dmp_motion_driver.c.obj: G:/Code/Emulate/test/Core/Src/Hardware/IMU/MPU/DMP/inv_mpu_dmp_motion_driver.c
+CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU/DMP/inv_mpu_dmp_motion_driver.c.obj: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\Code\Emulate\test\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU/DMP/inv_mpu_dmp_motion_driver.c.obj"
+	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU/DMP/inv_mpu_dmp_motion_driver.c.obj -MF CMakeFiles\test.dir\Core\Src\Hardware\IMU\MPU\DMP\inv_mpu_dmp_motion_driver.c.obj.d -o CMakeFiles\test.dir\Core\Src\Hardware\IMU\MPU\DMP\inv_mpu_dmp_motion_driver.c.obj -c G:\Code\Emulate\test\Core\Src\Hardware\IMU\MPU\DMP\inv_mpu_dmp_motion_driver.c
+
+CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU/DMP/inv_mpu_dmp_motion_driver.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU/DMP/inv_mpu_dmp_motion_driver.c.i"
+	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\Code\Emulate\test\Core\Src\Hardware\IMU\MPU\DMP\inv_mpu_dmp_motion_driver.c > CMakeFiles\test.dir\Core\Src\Hardware\IMU\MPU\DMP\inv_mpu_dmp_motion_driver.c.i
+
+CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU/DMP/inv_mpu_dmp_motion_driver.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU/DMP/inv_mpu_dmp_motion_driver.c.s"
+	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\Code\Emulate\test\Core\Src\Hardware\IMU\MPU\DMP\inv_mpu_dmp_motion_driver.c -o CMakeFiles\test.dir\Core\Src\Hardware\IMU\MPU\DMP\inv_mpu_dmp_motion_driver.c.s
 
 CMakeFiles/test.dir/Core/Src/main.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Core/Src/main.c.obj: G:/Code/Emulate/test/Core/Src/main.c
@@ -651,10 +651,10 @@ test_OBJECTS = \
 "CMakeFiles/test.dir/Core/Src/Hardware/Motor/filter.c.obj" \
 "CMakeFiles/test.dir/Core/Src/Hardware/Motor/motor.c.obj" \
 "CMakeFiles/test.dir/Core/Src/Hardware/Screen/OLED/OLED.c.obj" \
-"CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU6050/mpu6050.c.obj" \
-"CMakeFiles/test.dir/Core/Src/Hardware/IMU/DMP/inv_mpu.c.obj" \
-"CMakeFiles/test.dir/Core/Src/Hardware/IMU/DMP/inv_mpu_dmp_motion_driver.c.obj" \
 "CMakeFiles/test.dir/Core/Src/Conmunication/serial.c.obj" \
+"CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU/MPU6050/mpu6050.c.obj" \
+"CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU/DMP/inv_mpu.c.obj" \
+"CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU/DMP/inv_mpu_dmp_motion_driver.c.obj" \
 "CMakeFiles/test.dir/Core/Src/main.c.obj" \
 "CMakeFiles/test.dir/Core/Src/gpio.c.obj" \
 "CMakeFiles/test.dir/Core/Src/i2c.c.obj" \
@@ -696,10 +696,10 @@ test.elf: CMakeFiles/test.dir/Core/Src/Hardware/Motor/control.c.obj
 test.elf: CMakeFiles/test.dir/Core/Src/Hardware/Motor/filter.c.obj
 test.elf: CMakeFiles/test.dir/Core/Src/Hardware/Motor/motor.c.obj
 test.elf: CMakeFiles/test.dir/Core/Src/Hardware/Screen/OLED/OLED.c.obj
-test.elf: CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU6050/mpu6050.c.obj
-test.elf: CMakeFiles/test.dir/Core/Src/Hardware/IMU/DMP/inv_mpu.c.obj
-test.elf: CMakeFiles/test.dir/Core/Src/Hardware/IMU/DMP/inv_mpu_dmp_motion_driver.c.obj
 test.elf: CMakeFiles/test.dir/Core/Src/Conmunication/serial.c.obj
+test.elf: CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU/MPU6050/mpu6050.c.obj
+test.elf: CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU/DMP/inv_mpu.c.obj
+test.elf: CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU/DMP/inv_mpu_dmp_motion_driver.c.obj
 test.elf: CMakeFiles/test.dir/Core/Src/main.c.obj
 test.elf: CMakeFiles/test.dir/Core/Src/gpio.c.obj
 test.elf: CMakeFiles/test.dir/Core/Src/i2c.c.obj

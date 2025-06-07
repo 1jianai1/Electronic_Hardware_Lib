@@ -47,13 +47,15 @@ add_executable(${CMAKE_PROJECT_NAME}
         Core/Src/Hardware/Screen/OLED/OLED.c
         Core/Src/Hardware/Screen/OLED/OLED.h
         Core/Src/Hardware/Screen/OLED/OLED_Font.h
-        Core/Src/Hardware/IMU/MPU6050/mpu6050.c
-        Core/Src/Hardware/IMU/DMP/dmpKey.h
-        Core/Src/Hardware/IMU/DMP/dmpmap.h
-        Core/Src/Hardware/IMU/DMP/inv_mpu.c
-        Core/Src/Hardware/IMU/DMP/inv_mpu_dmp_motion_driver.c
-        Core/Src/Hardware/IMU/DMP/inv_mpu_dmp_motion_driver.h
-        Core/Src/Conmunication/serial.c)
+        Core/Src/Conmunication/serial.c
+        Core/Src/Hardware/IMU/MPU/MPU6050/mpu6050.c
+        Core/Src/Hardware/IMU/MPU/MPU6050/mpu6050.h
+        Core/Src/Hardware/IMU/MPU/DMP/dmpKey.h
+        Core/Src/Hardware/IMU/MPU/DMP/dmpmap.h
+        Core/Src/Hardware/IMU/MPU/DMP/inv_mpu.c
+        Core/Src/Hardware/IMU/MPU/DMP/inv_mpu.h
+        Core/Src/Hardware/IMU/MPU/DMP/inv_mpu_dmp_motion_driver.c
+        Core/Src/Hardware/IMU/MPU/DMP/inv_mpu_dmp_motion_driver.h)
 
 # Add STM32CubeMX generated sources
 add_subdirectory(cmake/stm32cubemx)

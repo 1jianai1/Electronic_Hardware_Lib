@@ -31,9 +31,9 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "G:/Code/Emulate/test/Core/Src/Conmunication/serial.c" "CMakeFiles/test.dir/Core/Src/Conmunication/serial.c.obj" "gcc" "CMakeFiles/test.dir/Core/Src/Conmunication/serial.c.obj.d"
-  "G:/Code/Emulate/test/Core/Src/Hardware/IMU/DMP/inv_mpu.c" "CMakeFiles/test.dir/Core/Src/Hardware/IMU/DMP/inv_mpu.c.obj" "gcc" "CMakeFiles/test.dir/Core/Src/Hardware/IMU/DMP/inv_mpu.c.obj.d"
-  "G:/Code/Emulate/test/Core/Src/Hardware/IMU/DMP/inv_mpu_dmp_motion_driver.c" "CMakeFiles/test.dir/Core/Src/Hardware/IMU/DMP/inv_mpu_dmp_motion_driver.c.obj" "gcc" "CMakeFiles/test.dir/Core/Src/Hardware/IMU/DMP/inv_mpu_dmp_motion_driver.c.obj.d"
-  "G:/Code/Emulate/test/Core/Src/Hardware/IMU/MPU6050/mpu6050.c" "CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU6050/mpu6050.c.obj" "gcc" "CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU6050/mpu6050.c.obj.d"
+  "G:/Code/Emulate/test/Core/Src/Hardware/IMU/MPU/DMP/inv_mpu.c" "CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU/DMP/inv_mpu.c.obj" "gcc" "CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU/DMP/inv_mpu.c.obj.d"
+  "G:/Code/Emulate/test/Core/Src/Hardware/IMU/MPU/DMP/inv_mpu_dmp_motion_driver.c" "CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU/DMP/inv_mpu_dmp_motion_driver.c.obj" "gcc" "CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU/DMP/inv_mpu_dmp_motion_driver.c.obj.d"
+  "G:/Code/Emulate/test/Core/Src/Hardware/IMU/MPU/MPU6050/mpu6050.c" "CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU/MPU6050/mpu6050.c.obj" "gcc" "CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU/MPU6050/mpu6050.c.obj.d"
   "G:/Code/Emulate/test/Core/Src/Hardware/Motor/control.c" "CMakeFiles/test.dir/Core/Src/Hardware/Motor/control.c.obj" "gcc" "CMakeFiles/test.dir/Core/Src/Hardware/Motor/control.c.obj.d"
   "G:/Code/Emulate/test/Core/Src/Hardware/Motor/filter.c" "CMakeFiles/test.dir/Core/Src/Hardware/Motor/filter.c.obj" "gcc" "CMakeFiles/test.dir/Core/Src/Hardware/Motor/filter.c.obj.d"
   "G:/Code/Emulate/test/Core/Src/Hardware/Motor/motor.c" "CMakeFiles/test.dir/Core/Src/Hardware/Motor/motor.c.obj" "gcc" "CMakeFiles/test.dir/Core/Src/Hardware/Motor/motor.c.obj.d"
