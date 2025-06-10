@@ -20,10 +20,10 @@ extern I2C_HandleTypeDef hi2c1;
 
 //SCL
 #define OLED_I2C_SCL_Port     GPIOB
-#define OLED_I2C_SCL_Pin      GPIO_PIN_8
+#define OLED_I2C_SCL_Pin      GPIO_PIN_0
 //SDA
 #define OLED_I2C_SDA_Port     GPIOB
-#define OLED_I2C_SDA_Pin      GPIO_PIN_9
+#define OLED_I2C_SDA_Pin      GPIO_PIN_1
 #endif
 
 

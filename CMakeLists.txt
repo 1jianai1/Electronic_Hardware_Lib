@@ -55,7 +55,13 @@ add_executable(${CMAKE_PROJECT_NAME}
         Core/Src/Hardware/IMU/MPU/DMP/inv_mpu.c
         Core/Src/Hardware/IMU/MPU/DMP/inv_mpu.h
         Core/Src/Hardware/IMU/MPU/DMP/inv_mpu_dmp_motion_driver.c
-        Core/Src/Hardware/IMU/MPU/DMP/inv_mpu_dmp_motion_driver.h)
+        Core/Src/Hardware/IMU/MPU/DMP/inv_mpu_dmp_motion_driver.h
+        Core/Src/Hardware/Magnetic/QMC5883/qmc5883.c
+        Core/Src/Hardware/Magnetic/QMC5883/qmc5883.h
+        Core/Src/Hardware/use.c
+        Core/Src/Hardware/use.h
+        Core/Src/Conmunication/IIC_moni/iic_moni.c
+)
 
 # Add STM32CubeMX generated sources
 add_subdirectory(cmake/stm32cubemx)

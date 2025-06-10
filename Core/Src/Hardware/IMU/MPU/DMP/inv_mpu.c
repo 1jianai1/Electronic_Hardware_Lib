@@ -46,7 +46,7 @@ static signed char gyro_orientation[9] = { 1, 0, 0,
 //long转float的除数
 #define q30  1073741824.0f
 #if defined EMPL_TARGET_STM32F4
-#include "i2c.h"   
+#include "i2c.h"
 #include "main.h"
 //#include "log.h"
 //#include "board-st_discovery.h"

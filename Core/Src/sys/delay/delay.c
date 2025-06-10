@@ -35,5 +35,5 @@ void delay_us(uint32_t udelay)
 }
 
 void delay_ms(uint32_t ms){
-    HAL_Delay(ms);
+    delay_us(ms * 1000);
 }

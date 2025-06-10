@@ -30,16 +30,19 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "G:/Code/Emulate/test/Core/Src/Conmunication/IIC_moni/iic_moni.c" "CMakeFiles/test.dir/Core/Src/Conmunication/IIC_moni/iic_moni.c.obj" "gcc" "CMakeFiles/test.dir/Core/Src/Conmunication/IIC_moni/iic_moni.c.obj.d"
   "G:/Code/Emulate/test/Core/Src/Conmunication/serial.c" "CMakeFiles/test.dir/Core/Src/Conmunication/serial.c.obj" "gcc" "CMakeFiles/test.dir/Core/Src/Conmunication/serial.c.obj.d"
   "G:/Code/Emulate/test/Core/Src/Hardware/IMU/MPU/DMP/inv_mpu.c" "CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU/DMP/inv_mpu.c.obj" "gcc" "CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU/DMP/inv_mpu.c.obj.d"
   "G:/Code/Emulate/test/Core/Src/Hardware/IMU/MPU/DMP/inv_mpu_dmp_motion_driver.c" "CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU/DMP/inv_mpu_dmp_motion_driver.c.obj" "gcc" "CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU/DMP/inv_mpu_dmp_motion_driver.c.obj.d"
   "G:/Code/Emulate/test/Core/Src/Hardware/IMU/MPU/MPU6050/mpu6050.c" "CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU/MPU6050/mpu6050.c.obj" "gcc" "CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU/MPU6050/mpu6050.c.obj.d"
+  "G:/Code/Emulate/test/Core/Src/Hardware/Magnetic/QMC5883/qmc5883.c" "CMakeFiles/test.dir/Core/Src/Hardware/Magnetic/QMC5883/qmc5883.c.obj" "gcc" "CMakeFiles/test.dir/Core/Src/Hardware/Magnetic/QMC5883/qmc5883.c.obj.d"
   "G:/Code/Emulate/test/Core/Src/Hardware/Motor/control.c" "CMakeFiles/test.dir/Core/Src/Hardware/Motor/control.c.obj" "gcc" "CMakeFiles/test.dir/Core/Src/Hardware/Motor/control.c.obj.d"
   "G:/Code/Emulate/test/Core/Src/Hardware/Motor/filter.c" "CMakeFiles/test.dir/Core/Src/Hardware/Motor/filter.c.obj" "gcc" "CMakeFiles/test.dir/Core/Src/Hardware/Motor/filter.c.obj.d"
   "G:/Code/Emulate/test/Core/Src/Hardware/Motor/motor.c" "CMakeFiles/test.dir/Core/Src/Hardware/Motor/motor.c.obj" "gcc" "CMakeFiles/test.dir/Core/Src/Hardware/Motor/motor.c.obj.d"
   "G:/Code/Emulate/test/Core/Src/Hardware/Screen/OLED/OLED.c" "CMakeFiles/test.dir/Core/Src/Hardware/Screen/OLED/OLED.c.obj" "gcc" "CMakeFiles/test.dir/Core/Src/Hardware/Screen/OLED/OLED.c.obj.d"
   "G:/Code/Emulate/test/Core/Src/Hardware/step_motor/step_Track.c" "CMakeFiles/test.dir/Core/Src/Hardware/step_motor/step_Track.c.obj" "gcc" "CMakeFiles/test.dir/Core/Src/Hardware/step_motor/step_Track.c.obj.d"
   "G:/Code/Emulate/test/Core/Src/Hardware/step_motor/step_motor.c" "CMakeFiles/test.dir/Core/Src/Hardware/step_motor/step_motor.c.obj" "gcc" "CMakeFiles/test.dir/Core/Src/Hardware/step_motor/step_motor.c.obj.d"
+  "G:/Code/Emulate/test/Core/Src/Hardware/use.c" "CMakeFiles/test.dir/Core/Src/Hardware/use.c.obj" "gcc" "CMakeFiles/test.dir/Core/Src/Hardware/use.c.obj.d"
   "G:/Code/Emulate/test/Core/Src/gpio.c" "CMakeFiles/test.dir/Core/Src/gpio.c.obj" "gcc" "CMakeFiles/test.dir/Core/Src/gpio.c.obj.d"
   "G:/Code/Emulate/test/Core/Src/i2c.c" "CMakeFiles/test.dir/Core/Src/i2c.c.obj" "gcc" "CMakeFiles/test.dir/Core/Src/i2c.c.obj.d"
   "G:/Code/Emulate/test/Core/Src/main.c" "CMakeFiles/test.dir/Core/Src/main.c.obj" "gcc" "CMakeFiles/test.dir/Core/Src/main.c.obj.d"

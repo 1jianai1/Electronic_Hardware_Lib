@@ -26,14 +26,13 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include <stdio.h>
-#include "sys/delay/delay.h"
-#include "Hardware/Motor/control.h"
 #include "Hardware/IMU/MPU/MPU9250/mpu9250.h"
 #include "Hardware/step_motor/step_Track.h"
 #include "sys/Config/config.h"
 #include "Conmunication/serial.h"
-#include "Hardware/IMU/MPU/MPU6050/mpu6050.h"
-#include "Hardware/IMU/MPU/DMP/inv_mpu.h"
+#include "Hardware/Screen/OLED/OLED.h"
+
+#include "Hardware/use.h"
 
 /* USER CODE END Includes */
 
@@ -99,77 +98,31 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_TIM10_Init();
-  MX_I2C1_Init();
   MX_TIM3_Init();
   MX_TIM4_Init();
   MX_USART1_UART_Init();
+  MX_TIM5_Init();
+  //MX_I2C1_Init();
   /* USER CODE BEGIN 2 */
   config_init();
   // 添加硬件接口
-    motor_attach(
-            M1,
-            &htim3,
-            TIM_CHANNEL_1,
-            &htim4,
-            GPIOB,
-            GPIO_PIN_4,
-            GPIOB,
-            GPIO_PIN_5
-            );
-    motor_init();
-    Motor_PID_init();
-    motor[M1].setTarSpeed(M1, 25);
-
-    MPU6050_Init();
-    mpu_dmp_init();
-
-//
-//    IIC_Init();
-//    MPU9250_Init();
 
 
-//    int16_t GYRO[3],ACC[3];
-//    float Temperature;
+  OLED_Init();
+  OLED_ShowString(1,1,"5555");
 
-//    stepmotor_attach(
-//            SM1,
-//            &htim5,
-//            TIM_CHANNEL_3,
-//            GPIOB,
-//            GPIO_PIN_1,
-//            GPIOA,
-//            GPIO_PIN_5
-//            );
-//    stepmotor_init();
-//    stepm[SM1].stepMove(SM1, -1000, 1000);
-//    HAL_Delay(500);
-//    stepm[SM1].stop(SM1);
-//    HAL_Delay(1000);
-//    stepm[SM1].stepMove(SM1, 1000, 1000);
-    HAL_TIM_Base_Start_IT(&htim10);
-    HAL_UART_Receive_IT(&huart1, config.rx1_buff, 1);
-    printf("Hello\r\n");
-    uint16_t time = 0, idx = 0;
-    int16_t speed_arr[10] = {-1, 5 ,-10, 15, -20, 15, -10, 5, 0, -10};
-    motor[M1].setTarSpeed(M1, speed_arr[0]);
-    float pitch, yaw, roll;
+  HAL_TIM_Base_Start_IT(&htim10);
+  HAL_UART_Receive_IT(&huart1, config.rx1_buff, 1);
+  printf("Hello\r\n");
+
+  use_qmc5883();
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-      if(time > 150){
-          time = 0;
-          idx++;
-          if(idx > 9)idx = 0;
-          motor[M1].setTarSpeed(M1, speed_arr[idx]);
-      }
-      time++;
-//      printf("speed: %d, %d\r\n", motor[M1].en_actual, motor[M1].tar_speed);
-      mpu_dmp_get_data(&pitch, &roll, &yaw);
-      printf("%d, %d, %d\r\n", (int)pitch, (int)roll, (int)yaw);
-      HAL_Delay(10);
+
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
@@ -232,8 +185,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef* htim){
 
         if(servo_t%10 == 0){
             servo_t = 0;
-            motor[M1].getSpeed(M1);
-            motor[M1].pidSpeedloop(M1);
+
         }
         servo_t++;
     }
@@ -247,13 +199,7 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef*huart){
 
 }
 
-int __io_putchar(int ch)
-{
-    while ((USART1->SR & 0X40) == 0); // 等�
-    // ��上一次发送完
-    USART1->DR = (uint8_t)ch; //串口发�?�字�??????????????????????????????
-    return 1;
-}
+
 /* USER CODE END 4 */
 
 /**

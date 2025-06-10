@@ -1,6 +1,8 @@
 #include "main.h"
 #include "OLED_Font.h"
 #include "OLED.h"
+#include "../Src/Conmunication/IIC_moni/iic_moni.h"
+#include <stdio.h>
 /*引脚配置*/
 //#define OLED_W_SCL(x)		HAL_GPIO_WritePin(GPIOB, GPIO_PIN_8, (x))
 //#define OLED_W_SDA(x)		HAL_GPIO_WritePin(GPIOB, GPIO_PIN_9, (x))
@@ -28,27 +30,36 @@ void OLED_I2C_Init(void)
 #else
     //todo GPIO的初始化，更推荐在cubemx中进行
     //RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOB, ENABLE);
-	__HAL_RCC_GPIOB_CLK_ENABLE();//内部时钟初始化
+//	__HAL_RCC_GPIOB_CLK_ENABLE();//内部时钟初始化
+//
+//	//GPIO_InitTypeDef GPIO_InitStructure;
+//	GPIO_InitTypeDef GPIO_InitStruct = {0};
+//
+//	//SCL
+// 	GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_OD;
+//	GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_HIGH;
+//	GPIO_InitStruct.Pull = GPIO_NOPULL;
+//	GPIO_InitStruct.Pin = OLED_I2C_SCL_Pin;
+// 	HAL_GPIO_Init(OLED_I2C_SCL_Port, &GPIO_InitStruct);
+//
+// 	//SDA
+//    GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_OD;
+//    GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_HIGH;
+//    GPIO_InitStruct.Pull = GPIO_NOPULL;
+//    GPIO_InitStruct.Pin = OLED_I2C_SDA_Pin;
+//    HAL_GPIO_Init(OLED_I2C_SDA_Port, &GPIO_InitStruct);
 
-	//GPIO_InitTypeDef GPIO_InitStructure;
-	GPIO_InitTypeDef GPIO_InitStruct = {0};
+    iic_attach(OLED_IIC,
+               OLED_I2C_SCL_Port,
+               OLED_I2C_SCL_Pin,
+               OLED_I2C_SDA_Port,
+               OLED_I2C_SDA_Pin,
+               I2C_HARDWARE);
+    iic[OLED_IIC].W_SCL(OLED_IIC, 1);
+    iic[OLED_IIC].W_SDA(OLED_IIC, 1);
+//	OLED_W_SCL(1);
+//	OLED_W_SDA(1);
 
-	//SCL
- 	GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_OD;
-	GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_HIGH;
-	GPIO_InitStruct.Pull = GPIO_NOPULL;
-	GPIO_InitStruct.Pin = OLED_I2C_SCL_Pin;
- 	HAL_GPIO_Init(OLED_I2C_SCL_Port, &GPIO_InitStruct);
-
- 	//SDA
-    GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_OD;
-    GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_HIGH;
-    GPIO_InitStruct.Pull = GPIO_NOPULL;
-    GPIO_InitStruct.Pin = OLED_I2C_SDA_Pin;
-    HAL_GPIO_Init(OLED_I2C_SDA_Port, &GPIO_InitStruct);
-
-	OLED_W_SCL(1);
-	OLED_W_SDA(1);
 #endif
 }
 
@@ -113,11 +124,14 @@ void OLED_WriteCommand(uint8_t Command)
     uint8_t datas[]={0x00,Command};
     HAL_I2C_Master_Transmit(&OLED_I2C,OLED_ADDRESS,datas,sizeof(datas),0xFF);
 #else
-	OLED_I2C_Start();
-	OLED_I2C_SendByte(0x78);		//从机地址
-	OLED_I2C_SendByte(0x00);		//写命令
-	OLED_I2C_SendByte(Command); 
-	OLED_I2C_Stop();
+    if(!iic[OLED_IIC].WriteReg(OLED_IIC, 0x78, 0x00, &Command, 1)){
+        printf("发送出错\r\n");
+    }
+//	OLED_I2C_Start();
+//	OLED_I2C_SendByte(0x78);		//从机地址
+//	OLED_I2C_SendByte(0x00);		//写命令
+//	OLED_I2C_SendByte(Command);
+//	OLED_I2C_Stop();
 #endif
 
 }
@@ -134,11 +148,14 @@ void OLED_WriteData(uint8_t Data)
     uint8_t datas[]={0x40,Data};
     HAL_I2C_Master_Transmit(&OLED_I2C,OLED_ADDRESS,datas,sizeof(datas),0xFF);
 #else
-	OLED_I2C_Start();
-	OLED_I2C_SendByte(0x78);		//从机地址
-	OLED_I2C_SendByte(0x40);		//写数据
-	OLED_I2C_SendByte(Data);
-	OLED_I2C_Stop();
+    if(!iic[OLED_IIC].WriteReg(OLED_IIC, 0x78, 0x40, &Data, 1)){
+        printf("发送出错\r\n");
+    }
+//	OLED_I2C_Start();
+//	OLED_I2C_SendByte(0x78);		//从机地址
+//	OLED_I2C_SendByte(0x40);		//写数据
+//	OLED_I2C_SendByte(Data);
+//	OLED_I2C_Stop();
 #endif
 }
 

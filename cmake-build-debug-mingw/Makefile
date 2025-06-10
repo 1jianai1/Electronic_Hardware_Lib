@@ -128,6 +128,30 @@ test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/build
 .PHONY : test/fast
 
+Core/Src/Conmunication/IIC_moni/iic_moni.obj: Core/Src/Conmunication/IIC_moni/iic_moni.c.obj
+.PHONY : Core/Src/Conmunication/IIC_moni/iic_moni.obj
+
+# target to build an object file
+Core/Src/Conmunication/IIC_moni/iic_moni.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Conmunication/IIC_moni/iic_moni.c.obj
+.PHONY : Core/Src/Conmunication/IIC_moni/iic_moni.c.obj
+
+Core/Src/Conmunication/IIC_moni/iic_moni.i: Core/Src/Conmunication/IIC_moni/iic_moni.c.i
+.PHONY : Core/Src/Conmunication/IIC_moni/iic_moni.i
+
+# target to preprocess a source file
+Core/Src/Conmunication/IIC_moni/iic_moni.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Conmunication/IIC_moni/iic_moni.c.i
+.PHONY : Core/Src/Conmunication/IIC_moni/iic_moni.c.i
+
+Core/Src/Conmunication/IIC_moni/iic_moni.s: Core/Src/Conmunication/IIC_moni/iic_moni.c.s
+.PHONY : Core/Src/Conmunication/IIC_moni/iic_moni.s
+
+# target to generate assembly for a file
+Core/Src/Conmunication/IIC_moni/iic_moni.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Conmunication/IIC_moni/iic_moni.c.s
+.PHONY : Core/Src/Conmunication/IIC_moni/iic_moni.c.s
+
 Core/Src/Conmunication/serial.obj: Core/Src/Conmunication/serial.c.obj
 .PHONY : Core/Src/Conmunication/serial.obj
 
@@ -223,6 +247,30 @@ Core/Src/Hardware/IMU/MPU/MPU6050/mpu6050.s: Core/Src/Hardware/IMU/MPU/MPU6050/m
 Core/Src/Hardware/IMU/MPU/MPU6050/mpu6050.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU/MPU6050/mpu6050.c.s
 .PHONY : Core/Src/Hardware/IMU/MPU/MPU6050/mpu6050.c.s
+
+Core/Src/Hardware/Magnetic/QMC5883/qmc5883.obj: Core/Src/Hardware/Magnetic/QMC5883/qmc5883.c.obj
+.PHONY : Core/Src/Hardware/Magnetic/QMC5883/qmc5883.obj
+
+# target to build an object file
+Core/Src/Hardware/Magnetic/QMC5883/qmc5883.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Hardware/Magnetic/QMC5883/qmc5883.c.obj
+.PHONY : Core/Src/Hardware/Magnetic/QMC5883/qmc5883.c.obj
+
+Core/Src/Hardware/Magnetic/QMC5883/qmc5883.i: Core/Src/Hardware/Magnetic/QMC5883/qmc5883.c.i
+.PHONY : Core/Src/Hardware/Magnetic/QMC5883/qmc5883.i
+
+# target to preprocess a source file
+Core/Src/Hardware/Magnetic/QMC5883/qmc5883.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Hardware/Magnetic/QMC5883/qmc5883.c.i
+.PHONY : Core/Src/Hardware/Magnetic/QMC5883/qmc5883.c.i
+
+Core/Src/Hardware/Magnetic/QMC5883/qmc5883.s: Core/Src/Hardware/Magnetic/QMC5883/qmc5883.c.s
+.PHONY : Core/Src/Hardware/Magnetic/QMC5883/qmc5883.s
+
+# target to generate assembly for a file
+Core/Src/Hardware/Magnetic/QMC5883/qmc5883.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Hardware/Magnetic/QMC5883/qmc5883.c.s
+.PHONY : Core/Src/Hardware/Magnetic/QMC5883/qmc5883.c.s
 
 Core/Src/Hardware/Motor/control.obj: Core/Src/Hardware/Motor/control.c.obj
 .PHONY : Core/Src/Hardware/Motor/control.obj
@@ -367,6 +415,30 @@ Core/Src/Hardware/step_motor/step_motor.s: Core/Src/Hardware/step_motor/step_mot
 Core/Src/Hardware/step_motor/step_motor.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Hardware/step_motor/step_motor.c.s
 .PHONY : Core/Src/Hardware/step_motor/step_motor.c.s
+
+Core/Src/Hardware/use.obj: Core/Src/Hardware/use.c.obj
+.PHONY : Core/Src/Hardware/use.obj
+
+# target to build an object file
+Core/Src/Hardware/use.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Hardware/use.c.obj
+.PHONY : Core/Src/Hardware/use.c.obj
+
+Core/Src/Hardware/use.i: Core/Src/Hardware/use.c.i
+.PHONY : Core/Src/Hardware/use.i
+
+# target to preprocess a source file
+Core/Src/Hardware/use.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Hardware/use.c.i
+.PHONY : Core/Src/Hardware/use.c.i
+
+Core/Src/Hardware/use.s: Core/Src/Hardware/use.c.s
+.PHONY : Core/Src/Hardware/use.s
+
+# target to generate assembly for a file
+Core/Src/Hardware/use.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Hardware/use.c.s
+.PHONY : Core/Src/Hardware/use.c.s
 
 Core/Src/gpio.obj: Core/Src/gpio.c.obj
 .PHONY : Core/Src/gpio.obj
@@ -1105,6 +1177,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... test
+	@echo ... Core/Src/Conmunication/IIC_moni/iic_moni.obj
+	@echo ... Core/Src/Conmunication/IIC_moni/iic_moni.i
+	@echo ... Core/Src/Conmunication/IIC_moni/iic_moni.s
 	@echo ... Core/Src/Conmunication/serial.obj
 	@echo ... Core/Src/Conmunication/serial.i
 	@echo ... Core/Src/Conmunication/serial.s
@@ -1117,6 +1192,9 @@ help:
 	@echo ... Core/Src/Hardware/IMU/MPU/MPU6050/mpu6050.obj
 	@echo ... Core/Src/Hardware/IMU/MPU/MPU6050/mpu6050.i
 	@echo ... Core/Src/Hardware/IMU/MPU/MPU6050/mpu6050.s
+	@echo ... Core/Src/Hardware/Magnetic/QMC5883/qmc5883.obj
+	@echo ... Core/Src/Hardware/Magnetic/QMC5883/qmc5883.i
+	@echo ... Core/Src/Hardware/Magnetic/QMC5883/qmc5883.s
 	@echo ... Core/Src/Hardware/Motor/control.obj
 	@echo ... Core/Src/Hardware/Motor/control.i
 	@echo ... Core/Src/Hardware/Motor/control.s
@@ -1135,6 +1213,9 @@ help:
 	@echo ... Core/Src/Hardware/step_motor/step_motor.obj
 	@echo ... Core/Src/Hardware/step_motor/step_motor.i
 	@echo ... Core/Src/Hardware/step_motor/step_motor.s
+	@echo ... Core/Src/Hardware/use.obj
+	@echo ... Core/Src/Hardware/use.i
+	@echo ... Core/Src/Hardware/use.s
 	@echo ... Core/Src/gpio.obj
 	@echo ... Core/Src/gpio.i
 	@echo ... Core/Src/gpio.s

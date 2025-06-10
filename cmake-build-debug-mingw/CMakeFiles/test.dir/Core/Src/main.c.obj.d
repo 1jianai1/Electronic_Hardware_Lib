@@ -67,14 +67,13 @@ CMakeFiles/test.dir/Core/Src/main.c.obj: \
  d:\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\sched.h \
  d:\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\types.h \
  d:\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\stdio.h \
- G:\Code\Emulate\test\Core\Src\sys/delay/delay.h \
- G:\Code\Emulate\test\Core\Src\Hardware/Motor/control.h \
- G:\Code\Emulate\test\Core\Src\Hardware/Motor/motor.h \
  G:\Code\Emulate\test\Core\Src\Hardware/IMU/MPU/MPU9250/mpu9250.h \
  g:\code\emulate\test\core\src\conmunication\iic_moni\iic_moni.h \
  G:\Code\Emulate\test\Core\Src\Hardware/step_motor/step_Track.h \
  g:\code\emulate\test\core\src\hardware\step_motor\step_motor.h \
  G:\Code\Emulate\test\Core\Src\sys/Config/config.h \
+ d:\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdbool.h \
+ g:\code\emulate\test\core\src\sys\delay\delay.h \
  G:\Code\Emulate\test\Core\Src\Conmunication/serial.h \
- G:\Code\Emulate\test\Core\Src\Hardware/IMU/MPU/MPU6050/mpu6050.h \
- G:\Code\Emulate\test\Core\Src\Hardware/IMU/MPU/DMP/inv_mpu.h
+ G:\Code\Emulate\test\Core\Src\Hardware/Screen/OLED/OLED.h \
+ G:\Code\Emulate\test\Core\Src\Hardware/use.h

@@ -33,7 +33,7 @@
  * get_ms(unsigned long *count)
  */
 #if defined EMPL_TARGET_STM32F4
-#include "i2c.h"   
+#include "i2c.h"
 #include "main.h"
 //#include "board-st_discovery.h"
 
