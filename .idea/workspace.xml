@@ -28,63 +28,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea3c8d12-aa53-40a9-b59e-5e9949117a04" name="Changes" comment="f411_change">
-      <change afterPath="$PROJECT_DIR$/Core/Src/Hardware/Magnetic/QMC5883/qmc5883.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Src/Hardware/Magnetic/QMC5883/qmc5883.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Src/Hardware/use.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Src/Hardware/use.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/stm32f4xx_it.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/stm32f4xx_it.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/tim.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/tim.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/Conmunication/IIC_moni/iic_moni.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/Conmunication/IIC_moni/iic_moni.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/Conmunication/IIC_moni/iic_moni.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/Conmunication/IIC_moni/iic_moni.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/Hardware/IMU/MPU/DMP/inv_mpu.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/Hardware/IMU/MPU/DMP/inv_mpu.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/Hardware/IMU/MPU/DMP/inv_mpu_dmp_motion_driver.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/Hardware/IMU/MPU/DMP/inv_mpu_dmp_motion_driver.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/Hardware/Screen/OLED/OLED.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/Hardware/Screen/OLED/OLED.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/Hardware/Screen/OLED/OLED.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/Hardware/Screen/OLED/OLED.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/i2c.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/i2c.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/stm32f4xx_it.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/stm32f4xx_it.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/sys/Config/config.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/sys/Config/config.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/sys/Config/config.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/sys/Config/config.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/sys/delay/delay.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/sys/delay/delay.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/tim.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/tim.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/codemodel-v2-883de802f86b71884b5e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/index-2025-06-07T13-34-01-0497.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/target-test-Debug-52352bd5122ef55fde17.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/clion-Debug-MinGW-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/clion-Debug-MinGW-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/Core/Src/Hardware/IMU/DMP/inv_mpu.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/Core/Src/Hardware/IMU/DMP/inv_mpu.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/Core/Src/Hardware/IMU/DMP/inv_mpu_dmp_motion_driver.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/Core/Src/Hardware/IMU/DMP/inv_mpu_dmp_motion_driver.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU6050/mpu6050.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU6050/mpu6050.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/Core/Src/Hardware/Screen/OLED/OLED.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/Core/Src/Hardware/Screen/OLED/OLED.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/Core/Src/Hardware/Screen/OLED/OLED.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/Core/Src/Hardware/Screen/OLED/OLED.c.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/Core/Src/i2c.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/Core/Src/i2c.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/Core/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/Core/Src/main.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/Core/Src/main.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/Core/Src/main.c.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/Core/Src/stm32f4xx_it.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/Core/Src/stm32f4xx_it.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/Core/Src/sys/Config/config.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/Core/Src/sys/Config/config.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/Core/Src/sys/Config/config.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/Core/Src/sys/Config/config.c.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/Core/Src/sys/delay/delay.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/Core/Src/sys/delay/delay.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/Core/Src/tim.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/Core/Src/tim.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/compiler_depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/compiler_depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/compiler_depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/compile_commands.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/compile_commands.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/test.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/test.elf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/test.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/test.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/test.ioc" afterDir="false" />
-    </list>
+    <list default="true" id="ea3c8d12-aa53-40a9-b59e-5e9949117a04" name="Changes" comment="f411_change" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -208,7 +152,7 @@
       <workItem from="1749372905246" duration="12308000" />
       <workItem from="1749387028245" duration="4231000" />
       <workItem from="1749451444325" duration="9376000" />
-      <workItem from="1749533548556" duration="919000" />
+      <workItem from="1749533548556" duration="1219000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <option name="closed" value="true" />
@@ -274,7 +218,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745484800504</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="f411_change">
+      <option name="closed" value="true" />
+      <created>1749535197518</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1749535197518</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
