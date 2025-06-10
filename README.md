@@ -7,4 +7,25 @@
 
 所有的外设我会基于此项目进行测试, 因此库文件是嵌入在工程里面的, 具体的外设文件的路径是:\
 **Core/Src/Hardware**\
+对于单个模块我在 **Core/SRC/Hardware/use.c/** 这个路径下面设立了使用方法\
+目前包含的模块有:
+ 
+Hardware:
+- mpu6050 + dmp
+- qmc5883
+- motor直流电机: tb6612 和 drv8701驱动
+- stepmotor步进电机：tb6600驱动
+- oled，i2c接口\
+
+conmunication(通信):
+- 软件I2C iic_moni
+- 串口调试协议 serial
+
+sys(开发预设)
+- config:
+  - 串口重定向
+  - 全局变量结构体
+  - gpio拉高低
+- delay: ms和us
+
 通过文件名应该可以很方便的指导这个文件是干什么的, 而且每个外设文件夹里面我会尽可能添加**说明文件**方便阅读, 和日后的使用

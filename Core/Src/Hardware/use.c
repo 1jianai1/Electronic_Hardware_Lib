@@ -64,7 +64,7 @@ void use_motor(void){
         HAL_Delay(10);
     }
 }
-
+// 放在定时中断循环中，定时进行pid控制
 void motor_tim_loop(void){
     motor[M1].getSpeed(M1);
     motor[M1].pidSpeedloop(M1);
