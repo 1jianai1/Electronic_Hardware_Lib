@@ -28,7 +28,16 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea3c8d12-aa53-40a9-b59e-5e9949117a04" name="Changes" comment="f411_change" />
+    <list default="true" id="ea3c8d12-aa53-40a9-b59e-5e9949117a04" name="Changes" comment="f411_change">
+      <change afterPath="$PROJECT_DIR$/Core/Src/Conmunication/IIC_moni/软件I2C移植流程.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/Hardware/Magnetic/QMC5883/qmc5883l使用流程.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/Core/Src/Hardware/Magnetic/QMC5883/qmc5883.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/Core/Src/Hardware/Magnetic/QMC5883/qmc5883.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/Core/Src/Hardware/use.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/Core/Src/Hardware/use.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/Core/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/Core/Src/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/test.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/test.elf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/test.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/test.map" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -152,7 +161,7 @@
       <workItem from="1749372905246" duration="12308000" />
       <workItem from="1749387028245" duration="4231000" />
       <workItem from="1749451444325" duration="9376000" />
-      <workItem from="1749533548556" duration="1219000" />
+      <workItem from="1749533548556" duration="4420000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <option name="closed" value="true" />

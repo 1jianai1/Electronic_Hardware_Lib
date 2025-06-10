@@ -7168,34 +7168,34 @@ LOAD d:/clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.1
  .debug_frame   0x00004c70       0x2c d:/clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(lib_a-readr.o)
  .debug_frame   0x00004c9c       0x5c d:/clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(lib_a-reent.o)
 
-.debug_info     0x00000000    0x13174
+.debug_info     0x00000000    0x1316e
  .debug_info    0x00000000      0x16c CMakeFiles/test.dir/Core/Src/sys/delay/delay.c.obj
  .debug_info    0x0000016c      0x38d CMakeFiles/test.dir/Core/Src/sys/Config/config.c.obj
  .debug_info    0x000004f9      0xf4e CMakeFiles/test.dir/Core/Src/Hardware/step_motor/step_motor.c.obj
  .debug_info    0x00001447      0xc13 CMakeFiles/test.dir/Core/Src/Hardware/Motor/control.c.obj
  .debug_info    0x0000205a      0x830 CMakeFiles/test.dir/Core/Src/Hardware/Screen/OLED/OLED.c.obj
  .debug_info    0x0000288a      0x187 CMakeFiles/test.dir/Core/Src/Conmunication/serial.c.obj
- .debug_info    0x00002a11      0x6d7 CMakeFiles/test.dir/Core/Src/Hardware/Magnetic/QMC5883/qmc5883.c.obj
- .debug_info    0x000030e8      0xe6c CMakeFiles/test.dir/Core/Src/Hardware/use.c.obj
- .debug_info    0x00003f54      0x91e CMakeFiles/test.dir/Core/Src/Conmunication/IIC_moni/iic_moni.c.obj
- .debug_info    0x00004872      0xe03 CMakeFiles/test.dir/Core/Src/main.c.obj
- .debug_info    0x00005675      0x435 CMakeFiles/test.dir/Core/Src/gpio.c.obj
- .debug_info    0x00005aaa      0xfc3 CMakeFiles/test.dir/Core/Src/tim.c.obj
- .debug_info    0x00006a6d      0xb12 CMakeFiles/test.dir/Core/Src/usart.c.obj
- .debug_info    0x0000757f      0x9da CMakeFiles/test.dir/Core/Src/stm32f4xx_it.c.obj
- .debug_info    0x00007f59      0x2d4 CMakeFiles/test.dir/Core/Src/stm32f4xx_hal_msp.c.obj
- .debug_info    0x0000822d      0x95e CMakeFiles/test.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
- .debug_info    0x00008b8b      0x78e CMakeFiles/test.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
- .debug_info    0x00009319      0x93b CMakeFiles/test.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
- .debug_info    0x00009c54      0xdd3 CMakeFiles/test.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
- .debug_info    0x0000aa27      0x8ba CMakeFiles/test.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
- .debug_info    0x0000b2e1     0x2b86 CMakeFiles/test.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .debug_info    0x0000de67     0x14d3 CMakeFiles/test.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
- .debug_info    0x0000f33a     0x30b8 CMakeFiles/test.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
- .debug_info    0x000123f2      0x54f CMakeFiles/test.dir/Core/Src/system_stm32f4xx.c.obj
- .debug_info    0x00012941      0x15f CMakeFiles/test.dir/Core/Src/sysmem.c.obj
- .debug_info    0x00012aa0      0x6b2 CMakeFiles/test.dir/Core/Src/syscalls.c.obj
- .debug_info    0x00013152       0x22 CMakeFiles/test.dir/startup_stm32f411xe.s.obj
+ .debug_info    0x00002a11      0x6d1 CMakeFiles/test.dir/Core/Src/Hardware/Magnetic/QMC5883/qmc5883.c.obj
+ .debug_info    0x000030e2      0xe6c CMakeFiles/test.dir/Core/Src/Hardware/use.c.obj
+ .debug_info    0x00003f4e      0x91e CMakeFiles/test.dir/Core/Src/Conmunication/IIC_moni/iic_moni.c.obj
+ .debug_info    0x0000486c      0xe03 CMakeFiles/test.dir/Core/Src/main.c.obj
+ .debug_info    0x0000566f      0x435 CMakeFiles/test.dir/Core/Src/gpio.c.obj
+ .debug_info    0x00005aa4      0xfc3 CMakeFiles/test.dir/Core/Src/tim.c.obj
+ .debug_info    0x00006a67      0xb12 CMakeFiles/test.dir/Core/Src/usart.c.obj
+ .debug_info    0x00007579      0x9da CMakeFiles/test.dir/Core/Src/stm32f4xx_it.c.obj
+ .debug_info    0x00007f53      0x2d4 CMakeFiles/test.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+ .debug_info    0x00008227      0x95e CMakeFiles/test.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_info    0x00008b85      0x78e CMakeFiles/test.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+ .debug_info    0x00009313      0x93b CMakeFiles/test.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+ .debug_info    0x00009c4e      0xdd3 CMakeFiles/test.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+ .debug_info    0x0000aa21      0x8ba CMakeFiles/test.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+ .debug_info    0x0000b2db     0x2b86 CMakeFiles/test.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .debug_info    0x0000de61     0x14d3 CMakeFiles/test.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .debug_info    0x0000f334     0x30b8 CMakeFiles/test.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+ .debug_info    0x000123ec      0x54f CMakeFiles/test.dir/Core/Src/system_stm32f4xx.c.obj
+ .debug_info    0x0001293b      0x15f CMakeFiles/test.dir/Core/Src/sysmem.c.obj
+ .debug_info    0x00012a9a      0x6b2 CMakeFiles/test.dir/Core/Src/syscalls.c.obj
+ .debug_info    0x0001314c       0x22 CMakeFiles/test.dir/startup_stm32f411xe.s.obj
 
 .debug_abbrev   0x00000000     0x2ee4
  .debug_abbrev  0x00000000       0xf3 CMakeFiles/test.dir/Core/Src/sys/delay/delay.c.obj
@@ -7439,10 +7439,10 @@ LOAD d:/clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.1
  .debug_line    0x00001adf      0x8d1 CMakeFiles/test.dir/Core/Src/Hardware/Motor/control.c.obj
  .debug_line    0x000023b0      0xbe8 CMakeFiles/test.dir/Core/Src/Hardware/Screen/OLED/OLED.c.obj
  .debug_line    0x00002f98      0x6b9 CMakeFiles/test.dir/Core/Src/Conmunication/serial.c.obj
- .debug_line    0x00003651      0x9ad CMakeFiles/test.dir/Core/Src/Hardware/Magnetic/QMC5883/qmc5883.c.obj
- .debug_line    0x00003ffe      0xa76 CMakeFiles/test.dir/Core/Src/Hardware/use.c.obj
- .debug_line    0x00004a74      0x91a CMakeFiles/test.dir/Core/Src/Conmunication/IIC_moni/iic_moni.c.obj
- .debug_line    0x0000538e      0xa30 CMakeFiles/test.dir/Core/Src/main.c.obj
+ .debug_line    0x00003651      0x9af CMakeFiles/test.dir/Core/Src/Hardware/Magnetic/QMC5883/qmc5883.c.obj
+ .debug_line    0x00004000      0xa76 CMakeFiles/test.dir/Core/Src/Hardware/use.c.obj
+ .debug_line    0x00004a76      0x91a CMakeFiles/test.dir/Core/Src/Conmunication/IIC_moni/iic_moni.c.obj
+ .debug_line    0x00005390      0xa2e CMakeFiles/test.dir/Core/Src/main.c.obj
  .debug_line    0x00005dbe      0x643 CMakeFiles/test.dir/Core/Src/gpio.c.obj
  .debug_line    0x00006401      0x8a0 CMakeFiles/test.dir/Core/Src/tim.c.obj
  .debug_line    0x00006ca1      0x6a1 CMakeFiles/test.dir/Core/Src/usart.c.obj
