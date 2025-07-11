@@ -12,6 +12,7 @@
  
 Hardware:
 - mpu6050 + dmp
+- JY61p/JY62
 - qmc5883
 - motor直流电机: tb6612 和 drv8701驱动
 - stepmotor步进电机：tb6600驱动
