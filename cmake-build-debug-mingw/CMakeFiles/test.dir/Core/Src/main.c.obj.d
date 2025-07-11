@@ -75,5 +75,6 @@ CMakeFiles/test.dir/Core/Src/main.c.obj: \
  d:\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdbool.h \
  g:\code\emulate\test\core\src\sys\delay\delay.h \
  G:\Code\Emulate\test\Core\Src\Conmunication/serial.h \
- G:\Code\Emulate\test\Core\Src\Hardware/Screen/OLED/OLED.h \
+ G:\Code\Emulate\test\Core\Src\Hardware/Screen/OLED_IIC/OLED.h \
+ G:\Code\Emulate\test\Core\Src\Hardware/IMU/wit/wit_elec.h \
  G:\Code\Emulate\test\Core\Src\Hardware/use.h

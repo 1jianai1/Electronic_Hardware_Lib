@@ -21,6 +21,8 @@ typedef uint32_t u32;
 #define FALSE   0
 #define TRUE    1
 
+#define ABS(x)  (x>0?x:-x)
+
 typedef enum{
     DL_OK,		// 完成
     DL_ERROR,	// 错误

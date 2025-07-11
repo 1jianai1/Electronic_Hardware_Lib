@@ -27,3 +27,7 @@ void debug_serial(uint8_t* data){
             break;
     }
 }
+
+void receive_Format(char* txt){
+
+}

@@ -26,6 +26,7 @@ typedef enum{
     QMC5883_IIC,
     OLED_IIC,
     MPU6050_IIC,
+    VL53_IIC,
     IIC_SUM
 }IIC_ID;
 

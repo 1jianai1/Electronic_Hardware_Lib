@@ -29,7 +29,6 @@ void OLED_I2C_Init(void)
 
 #else
     //todo GPIO的初始化，更推荐在cubemx中进行
-    //RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOB, ENABLE);
 //	__HAL_RCC_GPIOB_CLK_ENABLE();//内部时钟初始化
 //
 //	//GPIO_InitTypeDef GPIO_InitStructure;

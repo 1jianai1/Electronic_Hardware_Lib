@@ -30,7 +30,8 @@ CMakeFiles/test.dir/Core/Src/Hardware/use.c.obj: \
  d:\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\sched.h \
  d:\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\types.h \
  d:\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\stdio.h \
- G:\Code\Emulate\test\Core\Src\Hardware\Magnetic/QMC5883/qmc5883.h \
+ G:\Code\Emulate\test\Core\Src\Hardware\Distance/Tof/Vl53l0x_tof.h \
+ g:\code\emulate\test\core\src\conmunication\iic_moni\iic_moni.h \
  g:\code\emulate\test\core\inc\main.h \
  g:\code\emulate\test\drivers\stm32f4xx_hal_driver\inc\stm32f4xx_hal.h \
  g:\code\emulate\test\core\inc\stm32f4xx_hal_conf.h \
@@ -65,12 +66,12 @@ CMakeFiles/test.dir/Core/Src/Hardware/use.c.obj: \
  g:\code\emulate\test\drivers\stm32f4xx_hal_driver\inc\stm32f4xx_hal_tim.h \
  g:\code\emulate\test\drivers\stm32f4xx_hal_driver\inc\stm32f4xx_hal_tim_ex.h \
  g:\code\emulate\test\drivers\stm32f4xx_hal_driver\inc\stm32f4xx_hal_uart.h \
+ g:\code\emulate\test\core\inc\i2c.h g:\code\emulate\test\core\inc\main.h \
+ G:\Code\Emulate\test\Core\Src\Hardware\Magnetic/QMC5883/qmc5883.h \
  g:\code\emulate\test\core\src\sys\config\config.h \
  d:\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdbool.h \
  g:\code\emulate\test\core\src\sys\delay\delay.h \
- g:\code\emulate\test\core\src\conmunication\iic_moni\iic_moni.h \
  G:\Code\Emulate\test\Core\Src\Hardware\IMU/MPU/MPU6050/mpu6050.h \
- g:\code\emulate\test\core\inc\i2c.h g:\code\emulate\test\core\inc\main.h \
  G:\Code\Emulate\test\Core\Src\Hardware\IMU/MPU/DMP/inv_mpu.h \
  G:\Code\Emulate\test\Core\Src\Hardware\Motor/control.h \
  G:\Code\Emulate\test\Core\Src\Hardware\Motor/motor.h \

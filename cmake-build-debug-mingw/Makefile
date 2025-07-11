@@ -152,6 +152,30 @@ Core/Src/Conmunication/IIC_moni/iic_moni.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Conmunication/IIC_moni/iic_moni.c.s
 .PHONY : Core/Src/Conmunication/IIC_moni/iic_moni.c.s
 
+Core/Src/Conmunication/SPI_moni/spi_moni.obj: Core/Src/Conmunication/SPI_moni/spi_moni.c.obj
+.PHONY : Core/Src/Conmunication/SPI_moni/spi_moni.obj
+
+# target to build an object file
+Core/Src/Conmunication/SPI_moni/spi_moni.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Conmunication/SPI_moni/spi_moni.c.obj
+.PHONY : Core/Src/Conmunication/SPI_moni/spi_moni.c.obj
+
+Core/Src/Conmunication/SPI_moni/spi_moni.i: Core/Src/Conmunication/SPI_moni/spi_moni.c.i
+.PHONY : Core/Src/Conmunication/SPI_moni/spi_moni.i
+
+# target to preprocess a source file
+Core/Src/Conmunication/SPI_moni/spi_moni.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Conmunication/SPI_moni/spi_moni.c.i
+.PHONY : Core/Src/Conmunication/SPI_moni/spi_moni.c.i
+
+Core/Src/Conmunication/SPI_moni/spi_moni.s: Core/Src/Conmunication/SPI_moni/spi_moni.c.s
+.PHONY : Core/Src/Conmunication/SPI_moni/spi_moni.s
+
+# target to generate assembly for a file
+Core/Src/Conmunication/SPI_moni/spi_moni.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Conmunication/SPI_moni/spi_moni.c.s
+.PHONY : Core/Src/Conmunication/SPI_moni/spi_moni.c.s
+
 Core/Src/Conmunication/serial.obj: Core/Src/Conmunication/serial.c.obj
 .PHONY : Core/Src/Conmunication/serial.obj
 
@@ -175,6 +199,30 @@ Core/Src/Conmunication/serial.s: Core/Src/Conmunication/serial.c.s
 Core/Src/Conmunication/serial.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Conmunication/serial.c.s
 .PHONY : Core/Src/Conmunication/serial.c.s
+
+Core/Src/Hardware/Distance/Tof/Vl53l0x_tof.obj: Core/Src/Hardware/Distance/Tof/Vl53l0x_tof.c.obj
+.PHONY : Core/Src/Hardware/Distance/Tof/Vl53l0x_tof.obj
+
+# target to build an object file
+Core/Src/Hardware/Distance/Tof/Vl53l0x_tof.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Hardware/Distance/Tof/Vl53l0x_tof.c.obj
+.PHONY : Core/Src/Hardware/Distance/Tof/Vl53l0x_tof.c.obj
+
+Core/Src/Hardware/Distance/Tof/Vl53l0x_tof.i: Core/Src/Hardware/Distance/Tof/Vl53l0x_tof.c.i
+.PHONY : Core/Src/Hardware/Distance/Tof/Vl53l0x_tof.i
+
+# target to preprocess a source file
+Core/Src/Hardware/Distance/Tof/Vl53l0x_tof.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Hardware/Distance/Tof/Vl53l0x_tof.c.i
+.PHONY : Core/Src/Hardware/Distance/Tof/Vl53l0x_tof.c.i
+
+Core/Src/Hardware/Distance/Tof/Vl53l0x_tof.s: Core/Src/Hardware/Distance/Tof/Vl53l0x_tof.c.s
+.PHONY : Core/Src/Hardware/Distance/Tof/Vl53l0x_tof.s
+
+# target to generate assembly for a file
+Core/Src/Hardware/Distance/Tof/Vl53l0x_tof.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Hardware/Distance/Tof/Vl53l0x_tof.c.s
+.PHONY : Core/Src/Hardware/Distance/Tof/Vl53l0x_tof.c.s
 
 Core/Src/Hardware/IMU/MPU/DMP/inv_mpu.obj: Core/Src/Hardware/IMU/MPU/DMP/inv_mpu.c.obj
 .PHONY : Core/Src/Hardware/IMU/MPU/DMP/inv_mpu.obj
@@ -247,6 +295,30 @@ Core/Src/Hardware/IMU/MPU/MPU6050/mpu6050.s: Core/Src/Hardware/IMU/MPU/MPU6050/m
 Core/Src/Hardware/IMU/MPU/MPU6050/mpu6050.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Hardware/IMU/MPU/MPU6050/mpu6050.c.s
 .PHONY : Core/Src/Hardware/IMU/MPU/MPU6050/mpu6050.c.s
+
+Core/Src/Hardware/IMU/wit/wit_elec.obj: Core/Src/Hardware/IMU/wit/wit_elec.c.obj
+.PHONY : Core/Src/Hardware/IMU/wit/wit_elec.obj
+
+# target to build an object file
+Core/Src/Hardware/IMU/wit/wit_elec.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Hardware/IMU/wit/wit_elec.c.obj
+.PHONY : Core/Src/Hardware/IMU/wit/wit_elec.c.obj
+
+Core/Src/Hardware/IMU/wit/wit_elec.i: Core/Src/Hardware/IMU/wit/wit_elec.c.i
+.PHONY : Core/Src/Hardware/IMU/wit/wit_elec.i
+
+# target to preprocess a source file
+Core/Src/Hardware/IMU/wit/wit_elec.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Hardware/IMU/wit/wit_elec.c.i
+.PHONY : Core/Src/Hardware/IMU/wit/wit_elec.c.i
+
+Core/Src/Hardware/IMU/wit/wit_elec.s: Core/Src/Hardware/IMU/wit/wit_elec.c.s
+.PHONY : Core/Src/Hardware/IMU/wit/wit_elec.s
+
+# target to generate assembly for a file
+Core/Src/Hardware/IMU/wit/wit_elec.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Hardware/IMU/wit/wit_elec.c.s
+.PHONY : Core/Src/Hardware/IMU/wit/wit_elec.c.s
 
 Core/Src/Hardware/Magnetic/QMC5883/qmc5883.obj: Core/Src/Hardware/Magnetic/QMC5883/qmc5883.c.obj
 .PHONY : Core/Src/Hardware/Magnetic/QMC5883/qmc5883.obj
@@ -344,29 +416,29 @@ Core/Src/Hardware/Motor/motor.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Hardware/Motor/motor.c.s
 .PHONY : Core/Src/Hardware/Motor/motor.c.s
 
-Core/Src/Hardware/Screen/OLED/OLED.obj: Core/Src/Hardware/Screen/OLED/OLED.c.obj
-.PHONY : Core/Src/Hardware/Screen/OLED/OLED.obj
+Core/Src/Hardware/Screen/OLED_IIC/OLED.obj: Core/Src/Hardware/Screen/OLED_IIC/OLED.c.obj
+.PHONY : Core/Src/Hardware/Screen/OLED_IIC/OLED.obj
 
 # target to build an object file
-Core/Src/Hardware/Screen/OLED/OLED.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Hardware/Screen/OLED/OLED.c.obj
-.PHONY : Core/Src/Hardware/Screen/OLED/OLED.c.obj
+Core/Src/Hardware/Screen/OLED_IIC/OLED.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Hardware/Screen/OLED_IIC/OLED.c.obj
+.PHONY : Core/Src/Hardware/Screen/OLED_IIC/OLED.c.obj
 
-Core/Src/Hardware/Screen/OLED/OLED.i: Core/Src/Hardware/Screen/OLED/OLED.c.i
-.PHONY : Core/Src/Hardware/Screen/OLED/OLED.i
+Core/Src/Hardware/Screen/OLED_IIC/OLED.i: Core/Src/Hardware/Screen/OLED_IIC/OLED.c.i
+.PHONY : Core/Src/Hardware/Screen/OLED_IIC/OLED.i
 
 # target to preprocess a source file
-Core/Src/Hardware/Screen/OLED/OLED.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Hardware/Screen/OLED/OLED.c.i
-.PHONY : Core/Src/Hardware/Screen/OLED/OLED.c.i
+Core/Src/Hardware/Screen/OLED_IIC/OLED.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Hardware/Screen/OLED_IIC/OLED.c.i
+.PHONY : Core/Src/Hardware/Screen/OLED_IIC/OLED.c.i
 
-Core/Src/Hardware/Screen/OLED/OLED.s: Core/Src/Hardware/Screen/OLED/OLED.c.s
-.PHONY : Core/Src/Hardware/Screen/OLED/OLED.s
+Core/Src/Hardware/Screen/OLED_IIC/OLED.s: Core/Src/Hardware/Screen/OLED_IIC/OLED.c.s
+.PHONY : Core/Src/Hardware/Screen/OLED_IIC/OLED.s
 
 # target to generate assembly for a file
-Core/Src/Hardware/Screen/OLED/OLED.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Hardware/Screen/OLED/OLED.c.s
-.PHONY : Core/Src/Hardware/Screen/OLED/OLED.c.s
+Core/Src/Hardware/Screen/OLED_IIC/OLED.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Core/Src/Hardware/Screen/OLED_IIC/OLED.c.s
+.PHONY : Core/Src/Hardware/Screen/OLED_IIC/OLED.c.s
 
 Core/Src/Hardware/step_motor/step_Track.obj: Core/Src/Hardware/step_motor/step_Track.c.obj
 .PHONY : Core/Src/Hardware/step_motor/step_Track.obj
@@ -1180,9 +1252,15 @@ help:
 	@echo ... Core/Src/Conmunication/IIC_moni/iic_moni.obj
 	@echo ... Core/Src/Conmunication/IIC_moni/iic_moni.i
 	@echo ... Core/Src/Conmunication/IIC_moni/iic_moni.s
+	@echo ... Core/Src/Conmunication/SPI_moni/spi_moni.obj
+	@echo ... Core/Src/Conmunication/SPI_moni/spi_moni.i
+	@echo ... Core/Src/Conmunication/SPI_moni/spi_moni.s
 	@echo ... Core/Src/Conmunication/serial.obj
 	@echo ... Core/Src/Conmunication/serial.i
 	@echo ... Core/Src/Conmunication/serial.s
+	@echo ... Core/Src/Hardware/Distance/Tof/Vl53l0x_tof.obj
+	@echo ... Core/Src/Hardware/Distance/Tof/Vl53l0x_tof.i
+	@echo ... Core/Src/Hardware/Distance/Tof/Vl53l0x_tof.s
 	@echo ... Core/Src/Hardware/IMU/MPU/DMP/inv_mpu.obj
 	@echo ... Core/Src/Hardware/IMU/MPU/DMP/inv_mpu.i
 	@echo ... Core/Src/Hardware/IMU/MPU/DMP/inv_mpu.s
@@ -1192,6 +1270,9 @@ help:
 	@echo ... Core/Src/Hardware/IMU/MPU/MPU6050/mpu6050.obj
 	@echo ... Core/Src/Hardware/IMU/MPU/MPU6050/mpu6050.i
 	@echo ... Core/Src/Hardware/IMU/MPU/MPU6050/mpu6050.s
+	@echo ... Core/Src/Hardware/IMU/wit/wit_elec.obj
+	@echo ... Core/Src/Hardware/IMU/wit/wit_elec.i
+	@echo ... Core/Src/Hardware/IMU/wit/wit_elec.s
 	@echo ... Core/Src/Hardware/Magnetic/QMC5883/qmc5883.obj
 	@echo ... Core/Src/Hardware/Magnetic/QMC5883/qmc5883.i
 	@echo ... Core/Src/Hardware/Magnetic/QMC5883/qmc5883.s
@@ -1204,9 +1285,9 @@ help:
 	@echo ... Core/Src/Hardware/Motor/motor.obj
 	@echo ... Core/Src/Hardware/Motor/motor.i
 	@echo ... Core/Src/Hardware/Motor/motor.s
-	@echo ... Core/Src/Hardware/Screen/OLED/OLED.obj
-	@echo ... Core/Src/Hardware/Screen/OLED/OLED.i
-	@echo ... Core/Src/Hardware/Screen/OLED/OLED.s
+	@echo ... Core/Src/Hardware/Screen/OLED_IIC/OLED.obj
+	@echo ... Core/Src/Hardware/Screen/OLED_IIC/OLED.i
+	@echo ... Core/Src/Hardware/Screen/OLED_IIC/OLED.s
 	@echo ... Core/Src/Hardware/step_motor/step_Track.obj
 	@echo ... Core/Src/Hardware/step_motor/step_Track.i
 	@echo ... Core/Src/Hardware/step_motor/step_Track.s

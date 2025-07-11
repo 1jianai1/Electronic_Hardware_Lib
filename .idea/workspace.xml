@@ -29,10 +29,56 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea3c8d12-aa53-40a9-b59e-5e9949117a04" name="Changes" comment="f411_change">
+      <change afterPath="$PROJECT_DIR$/Core/Src/Conmunication/SPI_moni/spi_moni.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/Conmunication/SPI_moni/spi_moni.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/Hardware/Distance/Tof/Vl53l0x_tof.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/Hardware/Distance/Tof/Vl53l0x_tof.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/Hardware/IMU/wit/wit_elec.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/Hardware/IMU/wit/wit_elec.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/Hardware/IMU/wit/维特智能陀螺仪读取函数.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/Hardware/Magnetic/QMC5883/qmc5883l使用流程.md" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/Hardware/Magnetic/QMC5883/qmc5883l使用流程.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Inc/usart.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/usart.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/Conmunication/IIC_moni/iic_moni.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/Conmunication/IIC_moni/iic_moni.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/Conmunication/serial.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/Conmunication/serial.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/Hardware/Screen/OLED/OLED.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/Hardware/Screen/OLED_IIC/OLED.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/Hardware/Screen/OLED/OLED.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/Hardware/Screen/OLED_IIC/OLED.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/Hardware/Screen/OLED/OLED_Font.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/Hardware/Screen/OLED_IIC/OLED_Font.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/Hardware/use.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/Hardware/use.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/Hardware/use.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/Hardware/use.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/i2c.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/i2c.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/sys/Config/config.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/sys/Config/config.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/usart.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/usart.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/codemodel-v2-3182199cef3ee74acc77.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/index-2025-06-08T13-59-52-0432.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/target-test-Debug-8036d5978ddeffb788a5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/clion-Debug-MinGW-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/clion-Debug-MinGW-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/Core/Src/Conmunication/IIC_moni/iic_moni.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/Core/Src/Conmunication/IIC_moni/iic_moni.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/Core/Src/Conmunication/serial.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/Core/Src/Conmunication/serial.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/Core/Src/Hardware/Magnetic/QMC5883/qmc5883.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/Core/Src/Hardware/Magnetic/QMC5883/qmc5883.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/Core/Src/Hardware/use.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/Core/Src/Hardware/use.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/Core/Src/Hardware/use.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/Core/Src/Hardware/use.c.obj.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/Core/Src/i2c.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/Core/Src/i2c.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/Core/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/Core/Src/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/Core/Src/main.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/Core/Src/main.c.obj.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/Core/Src/sys/Config/config.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/Core/Src/sys/Config/config.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/Core/Src/usart.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/Core/Src/usart.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/compiler_depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/compiler_depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/compiler_depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/test.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/compile_commands.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/compile_commands.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/test.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/test.elf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/test.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/test.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/test.ioc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +114,7 @@
     &quot;CMake Application.test.executor&quot;: &quot;Run&quot;,
     &quot;OpenOCD Download &amp; Run.DAP.executor&quot;: &quot;Run&quot;,
     &quot;OpenOCD 下载并运行.DAP.executor&quot;: &quot;Run&quot;,
+    &quot;OpenOCD 下载并运行.Jlink.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
@@ -80,7 +127,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;CPPToolchains&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.rainbow.brackets.lite&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -90,14 +137,37 @@
       <recent name="G:\Code\Emulate\test\Core\Src\Hardware\Screen" />
     </key>
   </component>
+  <component name="RunAnythingCache">
+    <myKeys>
+      <visibility group="Grunt" flag="true" />
+      <visibility group="Gulp" flag="true" />
+      <visibility group="HTTP 请求" flag="true" />
+      <visibility group="Node.js" flag="true" />
+      <visibility group="npm" flag="true" />
+      <visibility group="yarn" flag="true" />
+      <visibility group="最近的项目" flag="true" />
+      <visibility group="运行 Python 文件" flag="true" />
+      <visibility group="运行 conda 命令" flag="true" />
+      <visibility group="运行 pip 命令" flag="true" />
+      <visibility group="运行配置" flag="true" />
+    </myKeys>
+  </component>
   <component name="RunManager" selected="OpenOCD 下载并运行.DAP">
     <configuration name="test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="test" TARGET_NAME="test" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="test" RUN_TARGET_NAME="test">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DAP" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="test" TARGET_NAME="test" version="1" RUN_TARGET_PROJECT_NAME="test" RUN_TARGET_NAME="test">
+    <configuration name="DAP" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="test" TARGET_NAME="test" CONFIG_NAME="Debug-MinGW" version="1" RUN_TARGET_PROJECT_NAME="test" RUN_TARGET_NAME="test">
       <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="G:\Code\Emulate\test\config_f4\daplink.cfg" reset-type="RUN" download-type="UPDATED_ONLY">
+        <debugger kind="GDB" isBundled="true" />
+      </openocd>
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Jlink" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="test" TARGET_NAME="test" CONFIG_NAME="Debug-MinGW" version="1" RUN_TARGET_PROJECT_NAME="test" RUN_TARGET_NAME="test">
+      <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="G:\Code\Emulate\test\config_f4\jlink.cfg" reset-type="RUN" download-type="UPDATED_ONLY">
         <debugger kind="GDB" isBundled="true" />
       </openocd>
       <method v="2">
@@ -107,6 +177,7 @@
     <list>
       <item itemvalue="CMake 应用程序.test" />
       <item itemvalue="OpenOCD 下载并运行.DAP" />
+      <item itemvalue="OpenOCD 下载并运行.Jlink" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -159,7 +230,19 @@
       <workItem from="1749451444325" duration="9376000" />
       <workItem from="1749533548556" duration="10520000" />
       <workItem from="1749557181129" duration="641000" />
-      <workItem from="1749558252625" duration="308000" />
+      <workItem from="1749558252625" duration="1427000" />
+      <workItem from="1749602008472" duration="7816000" />
+      <workItem from="1749629102338" duration="35000" />
+      <workItem from="1750247738692" duration="242000" />
+      <workItem from="1751563132727" duration="1000" />
+      <workItem from="1751813693322" duration="13000" />
+      <workItem from="1751989825545" duration="6470000" />
+      <workItem from="1752021573590" duration="1669000" />
+      <workItem from="1752071354095" duration="19000" />
+      <workItem from="1752147134585" duration="2474000" />
+      <workItem from="1752149645846" duration="49000" />
+      <workItem from="1752149862524" duration="299000" />
+      <workItem from="1752196473523" duration="1030000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <option name="closed" value="true" />

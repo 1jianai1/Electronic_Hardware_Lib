@@ -30,8 +30,8 @@
 #include "Hardware/step_motor/step_Track.h"
 #include "sys/Config/config.h"
 #include "Conmunication/serial.h"
-#include "Hardware/Screen/OLED/OLED.h"
-
+#include "Hardware/Screen/OLED_IIC/OLED.h"
+#include "Hardware/IMU/wit/wit_elec.h"
 #include "Hardware/use.h"
 
 /* USER CODE END Includes */
@@ -65,7 +65,8 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
+int16_t angle[3] = {0};
+uint8_t re_data = 0;
 /* USER CODE END 0 */
 
 /**
@@ -102,7 +103,8 @@ int main(void)
   MX_TIM4_Init();
   MX_USART1_UART_Init();
   MX_TIM5_Init();
-  //MX_I2C1_Init();
+  MX_I2C1_Init();
+  MX_USART6_UART_Init();
   /* USER CODE BEGIN 2 */
   config_init();
   // 添加硬件接口
@@ -113,16 +115,19 @@ int main(void)
 
   HAL_TIM_Base_Start_IT(&htim10);
   HAL_UART_Receive_IT(&huart1, config.rx1_buff, 1);
-  printf("Hello\r\n");
+  HAL_UART_Receive_IT(&huart6, &re_data, 1);
 
-  use_qmc5883();
+    printf("Hello\r\n");
+
+//use_vl53l0x();
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-
+            printf("angle: %d, %d, %d\r\n", angle[0], angle[1], angle[2]);
+      HAL_Delay(100);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
@@ -195,6 +200,10 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef* htim){
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef*huart){
     if(huart->Instance==USART1){
         debug_serial(config.rx1_buff);
+    }
+    if(huart->Instance == USART6){
+        getwitData(angle, re_data);
+        HAL_UART_Receive_IT(&huart6, &re_data, 1);
     }
 
 }

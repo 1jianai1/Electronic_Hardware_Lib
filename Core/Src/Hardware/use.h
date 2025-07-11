@@ -5,7 +5,7 @@
 #ifndef TEST_USE_H
 #define TEST_USE_H
 
-
+void use_vl53l0x(void);
 void use_qmc5883(void);
 
 void use_dmp_mpu6050(void);

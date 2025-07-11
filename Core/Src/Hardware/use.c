@@ -7,6 +7,16 @@
 /*
  * todo 各种模块的使用示例
  * */
+// todo tof
+#include "Distance/Tof/Vl53l0x_tof.h"
+#include "i2c.h"
+void use_vl53l0x(void){
+    VL53L0x_init(&hi2c1);
+    for(;;){
+        VL53L0x_ReadDistance(&hi2c1, &VL53L0x_Bottom);
+        printf("vl:%d \r\n", VL53L0x_Bottom.dist_last);
+    }
+}
 
 // todo QMC5883
 #include "Magnetic/QMC5883/qmc5883.h"
